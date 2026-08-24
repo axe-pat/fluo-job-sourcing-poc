@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-05T11:31:19.246218Z",
+  "source": {
+    "publisher": "U.S. Department of Labor, Office of Foreign Labor Certification",
+    "dataset": "LCA Disclosure Data FY2026 Q2",
+    "period": "2025-10-01 through 2026-03-31",
+    "download_url": "https://www.dol.gov/media/LCA_Dislclosure_Data_FY2026_Q2.xlsx",
+    "catalog_url": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
+    "input_file": "LCA_Dislclosure_Data_FY2026_Q2.xlsx",
+    "input_rows": 210387
+  },
+  "scope": {
+    "visa_class": "H-1B",
+    "worksite_state": "CA",
+    "southern_california_counties": [
+      "IMPERIAL",
+      "KERN",
+      "LOS ANGELES",
+      "ORANGE",
+      "RIVERSIDE",
+      "SAN BERNARDINO",
+      "SAN DIEGO",
+      "SAN LUIS OBISPO",
+      "SANTA BARBARA",
+      "VENTURA"
+    ],
+    "matched_rows": 577,
+    "distinct_employers_before_limit": 230,
+    "output_limit": 230
+  },
+  "definitions": {
+    "approval_count": "Count of LCA cases whose status begins with Certified, including Certified - Withdrawn.",
+    "approval_rate": "approval_count divided by approval_count plus Denied; Withdrawn is excluded from the denominator.",
+    "certified_positions": "Sum of TOTAL_WORKER_POSITIONS on approved LCA cases.",
+    "entity_deduplication": "Rows are grouped by FEIN when present, otherwise normalized employer name. FEIN values are not exported.",
+    "hq_location": "Most frequent employer city/state in the disclosure file; this may be a filing address, not corporate headquarters."
+  }
+}

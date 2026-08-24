@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Fresh jobs from employers with recent H-1B history, sourced from reviewed ATS JSON feeds." />
+    <title>Fluo — Sponsor signal, before the crowd</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Fluo job sourcing home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>fluo</span>
+      </a>
+      <div class="header-actions">
+        <span class="system-status" id="system-status"><i></i><span>Checking feeds</span></span>
+        <button class="refresh-button" id="refresh-button" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v6h-6" /></svg>
+          <span>Refresh now</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span>LA / Southern California</span><b>Prototype 01</b></div>
+          <h1 id="hero-title">The sponsor signal.<br /><em>Before the crowd.</em></h1>
+          <p>
+            Fresh openings from employers with recent H-1B history, pulled straight from their public hiring systems.
+            No LinkedIn scraping. No ranking algorithm. Just the jobs that matter, sooner.
+          </p>
+        </div>
+        <aside class="signal-card" aria-label="Data sourcing promise">
+          <div class="signal-orbit" aria-hidden="true"><span></span></div>
+          <div>
+            <small>Source integrity</small>
+            <strong>JSON feed only</strong>
+            <p>Greenhouse · Lever · Ashby · Workday stretch</p>
+          </div>
+          <span class="zero-badge">0 scraping</span>
+        </aside>
+      </section>
+
+      <section class="trust-strip" aria-label="Prototype guarantees">
+        <span><i class="check">✓</i> Public ATS JSON endpoints</span>
+        <span><i class="check">✓</i> DOL sponsor history</span>
+        <span><i class="check">✓</i> First-seen preserved</span>
+        <span><i class="shield">◇</i> No login sessions</span>
+      </section>
+
+      <section class="metric-grid" aria-label="Job source summary">
+        <article class="metric-card metric-primary">
+          <div class="metric-icon">↗</div>
+          <div><span id="metric-jobs">—</span><small>Live openings</small></div>
+          <p>Across every healthy feed</p>
+        </article>
+        <article class="metric-card">
+          <div class="metric-icon">◎</div>
+          <div><span id="metric-companies">—</span><small>Verified employers</small></div>
+          <p>With Southern California H-1B history</p>
+        </article>
+        <article class="metric-card">
+          <div class="metric-icon">✦</div>
+          <div><span id="metric-new">—</span><small>First seen in 24h</small></div>
+          <p>New to this watchlist</p>
+        </article>
+        <article class="metric-card">
+          <div class="metric-icon">◷</div>
+          <div><span id="metric-refresh">—</span><small>Last refresh</small></div>
+          <p id="metric-health">Awaiting the first run</p>
+        </article>
+      </section>
+
+      <section class="jobs-shell" aria-labelledby="jobs-title">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">THE WATCHLIST</span>
+            <h2 id="jobs-title">Employer-history watchlist roles</h2>
+          </div>
+          <p id="result-count" aria-live="polite">Loading openings…</p>
+        </div>
+
+        <div class="filters" role="search">
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg>
+            <span class="sr-only">Search roles</span>
+            <input id="search-input" type="search" placeholder="Search title, team, location…" autocomplete="off" />
+          </label>
+          <label>
+            <span class="sr-only">Company</span>
+            <select id="company-filter"><option value="">All companies</option></select>
+          </label>
+          <label>
+            <span class="sr-only">Minimum LCA approval rate</span>
+            <select id="approval-filter">
+              <option value="">Any approval rate</option>
+              <option value="0.9">90%+ approval</option>
+              <option value="0.95">95%+ approval</option>
+              <option value="1">100% approval</option>
+            </select>
+          </label>
+          <label>
+            <span class="sr-only">Role age</span>
+            <select id="age-filter">
+              <option value="">Any date</option>
+              <option value="1">Last 24 hours</option>
+              <option value="7">Last 7 days</option>
+              <option value="30">Last 30 days</option>
+            </select>
+          </label>
+          <label>
+            <span class="sr-only">Sort order</span>
+            <select id="sort-filter">
+              <option value="recent">Newest ATS date</option>
+              <option value="first_seen">Newest first seen</option>
+              <option value="approval">Highest approval</option>
+              <option value="company">Company A–Z</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="job-list" id="job-list" aria-live="polite" aria-busy="true">
+          <div class="job-skeleton"></div>
+          <div class="job-skeleton"></div>
+          <div class="job-skeleton"></div>
+        </div>
+      </section>
+
+      <section class="decision-panel">
+        <button id="decision-toggle" type="button" aria-expanded="false" aria-controls="decision-content">
+          <span><i>?</i><b>Three choices still belong to the requester</b></span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5" /></svg>
+        </button>
+        <div id="decision-content" hidden>
+          <article><span>01</span><div><h3>Refresh frequency</h3><p>Daily is implemented for v1. Hourly polling changes the operations and cost story.</p></div></article>
+          <article><span>02</span><div><h3>Geographic scope</h3><p>The seed uses Southern California worksites. Nationwide would materially expand the employer universe.</p></div></article>
+          <article><span>03</span><div><h3>Sponsor-friendly definition</h3><p>This build uses H-1B LCA history only. OPT/CPT-friendly signals require different evidence.</p></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><span class="footer-mark">f</span><p><strong>Fluo sourcing prototype</strong><br />A narrow proof that “first to know” can be safe and cheap.</p></div>
+      <p>
+        Sources:
+        <a href="https://www.dol.gov/agencies/eta/foreign-labor/performance" target="_blank" rel="noreferrer">U.S. DOL LCA disclosure</a>
+        · reviewed ATS JSON feeds
+      </p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

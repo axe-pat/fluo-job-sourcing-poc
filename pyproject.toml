@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluo-job-sourcing-prototype"
+version = "0.1.0"
+description = "Curated sponsor-history employer jobs from reviewed ATS JSON feeds"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dol-import = ["pandas>=2.2,<3", "openpyxl>=3.1,<4"]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+fluo-jobs = "fluo.__main__:main"
+
+[tool.setuptools]
+packages = ["fluo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

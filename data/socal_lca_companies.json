@@ -1,0 +1,4236 @@
+{
+  "manifest": {
+    "generated_at": "2026-08-05T11:31:19.246218Z",
+    "source": {
+      "publisher": "U.S. Department of Labor, Office of Foreign Labor Certification",
+      "dataset": "LCA Disclosure Data FY2026 Q2",
+      "period": "2025-10-01 through 2026-03-31",
+      "download_url": "https://www.dol.gov/media/LCA_Dislclosure_Data_FY2026_Q2.xlsx",
+      "catalog_url": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
+      "input_file": "LCA_Dislclosure_Data_FY2026_Q2.xlsx",
+      "input_rows": 210387
+    },
+    "scope": {
+      "visa_class": "H-1B",
+      "worksite_state": "CA",
+      "southern_california_counties": [
+        "IMPERIAL",
+        "KERN",
+        "LOS ANGELES",
+        "ORANGE",
+        "RIVERSIDE",
+        "SAN BERNARDINO",
+        "SAN DIEGO",
+        "SAN LUIS OBISPO",
+        "SANTA BARBARA",
+        "VENTURA"
+      ],
+      "matched_rows": 577,
+      "distinct_employers_before_limit": 230,
+      "output_limit": 230
+    },
+    "definitions": {
+      "approval_count": "Count of LCA cases whose status begins with Certified, including Certified - Withdrawn.",
+      "approval_rate": "approval_count divided by approval_count plus Denied; Withdrawn is excluded from the denominator.",
+      "certified_positions": "Sum of TOTAL_WORKER_POSITIONS on approved LCA cases.",
+      "entity_deduplication": "Rows are grouped by FEIN when present, otherwise normalized employer name. FEIN values are not exported.",
+      "hq_location": "Most frequent employer city/state in the disclosure file; this may be a filing address, not corporate headquarters."
+    }
+  },
+  "companies": [
+    {
+      "legal_name": "Apple Inc.",
+      "aliases": [
+        "Apple Inc."
+      ],
+      "approval_count": 70,
+      "approval_rate": 1.0,
+      "case_count": 70,
+      "denied_count": 0,
+      "certified_positions": 70,
+      "industry": "Manufacturing",
+      "naics_code": "334111",
+      "hq_location": "Cupertino, CA",
+      "socal_worksites": [
+        "Culver City",
+        "Irvine",
+        "Los Angeles",
+        "San Diego"
+      ],
+      "rank": 1
+    },
+    {
+      "legal_name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+      "aliases": [
+        "UNIVERSITY OF CALIFORNIA, SAN DIEGO"
+      ],
+      "approval_count": 64,
+      "approval_rate": 1.0,
+      "case_count": 64,
+      "denied_count": 0,
+      "certified_positions": 64,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "LA JOLLA, CA",
+      "socal_worksites": [
+        "El Centro",
+        "La Jolla",
+        "San Diego"
+      ],
+      "rank": 2
+    },
+    {
+      "legal_name": "California Institute of Technology/Jet Propulsion Laboratory",
+      "aliases": [
+        "California Institute of Technology",
+        "California Institute of Technology/Jet Propulsion Laboratory"
+      ],
+      "approval_count": 35,
+      "approval_rate": 1.0,
+      "case_count": 35,
+      "denied_count": 0,
+      "certified_positions": 35,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Pasadena, CA",
+      "socal_worksites": [
+        "Los Angeles",
+        "Pasadena",
+        "PASADENA"
+      ],
+      "rank": 3
+    },
+    {
+      "legal_name": "The University of Southern California",
+      "aliases": [
+        "THE UNIVERSITY OF SOUTHERN CALIFORNIA",
+        "The University of Southern California"
+      ],
+      "approval_count": 21,
+      "approval_rate": 1.0,
+      "case_count": 21,
+      "denied_count": 0,
+      "certified_positions": 21,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles",
+        "Playa Vista",
+        "San Diego"
+      ],
+      "rank": 4
+    },
+    {
+      "legal_name": "Rivian Automotive, LLC",
+      "aliases": [
+        "RIVIAN AUTOMOTIVE, LLC",
+        "Rivian Automotive, LLC"
+      ],
+      "approval_count": 17,
+      "approval_rate": 1.0,
+      "case_count": 17,
+      "denied_count": 0,
+      "certified_positions": 17,
+      "industry": "Manufacturing",
+      "naics_code": "336111",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine",
+        "Torrance",
+        "Tustin"
+      ],
+      "rank": 5
+    },
+    {
+      "legal_name": "Sanford Burnham Prebys Medical Discovery Institute",
+      "aliases": [
+        "Sanford Burnham Prebys Medical Discovery Institute"
+      ],
+      "approval_count": 13,
+      "approval_rate": 1.0,
+      "case_count": 13,
+      "denied_count": 0,
+      "certified_positions": 13,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "La Jolla, CA",
+      "socal_worksites": [
+        "La Jolla"
+      ],
+      "rank": 6
+    },
+    {
+      "legal_name": "The Scripps Research Institute",
+      "aliases": [
+        "The Scripps Research Institute"
+      ],
+      "approval_count": 13,
+      "approval_rate": 1.0,
+      "case_count": 13,
+      "denied_count": 0,
+      "certified_positions": 13,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "La Jolla, CA",
+      "socal_worksites": [
+        "La Jolla",
+        "San Diego"
+      ],
+      "rank": 7
+    },
+    {
+      "legal_name": "SONY INTERACTIVE ENTERTAINMENT LLC",
+      "aliases": [
+        "SONY INTERACTIVE ENTERTAINMENT LLC",
+        "Sony Interactive Entertainment LLC"
+      ],
+      "approval_count": 10,
+      "approval_rate": 1.0,
+      "case_count": 10,
+      "denied_count": 0,
+      "certified_positions": 10,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "SAN MATEO, CA",
+      "socal_worksites": [
+        "ALISO VIEJO",
+        "Los Angeles",
+        "San Diego",
+        "SAN DIEGO"
+      ],
+      "rank": 8
+    },
+    {
+      "legal_name": "University of California at Santa Barbara",
+      "aliases": [
+        "University of California at Santa Barbara"
+      ],
+      "approval_count": 10,
+      "approval_rate": 1.0,
+      "case_count": 10,
+      "denied_count": 0,
+      "certified_positions": 10,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Santa Barbara, CA",
+      "socal_worksites": [
+        "SANTA BARBARA",
+        "Santa Barbara"
+      ],
+      "rank": 9
+    },
+    {
+      "legal_name": "UNIVERSITY OF CALIFORNIA, IRVINE",
+      "aliases": [
+        "UNIVERSITY OF CALIFORNIA, IRVINE"
+      ],
+      "approval_count": 9,
+      "approval_rate": 1.0,
+      "case_count": 9,
+      "denied_count": 0,
+      "certified_positions": 9,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "IRVINE, CA",
+      "socal_worksites": [
+        "IRVINE"
+      ],
+      "rank": 10
+    },
+    {
+      "legal_name": "WIPRO LIMITED",
+      "aliases": [
+        "WIPRO LIMITED"
+      ],
+      "approval_count": 6,
+      "approval_rate": 1.0,
+      "case_count": 6,
+      "denied_count": 0,
+      "certified_positions": 9,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "EAST BRUNSWICK, NJ",
+      "socal_worksites": [
+        "Irvine",
+        "Los Angeles",
+        "Thousand Oaks",
+        "Torrance",
+        "Woodland Hills"
+      ],
+      "rank": 11
+    },
+    {
+      "legal_name": "CAPGEMINI AMERICA INC",
+      "aliases": [
+        "CAPGEMINI AMERICA INC"
+      ],
+      "approval_count": 6,
+      "approval_rate": 1.0,
+      "case_count": 6,
+      "denied_count": 0,
+      "certified_positions": 6,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541512",
+      "hq_location": "CHICAGO, IL",
+      "socal_worksites": [
+        "CHINO",
+        "IRVINE",
+        "Irvine",
+        "SYLMAR",
+        "Westminster"
+      ],
+      "rank": 12
+    },
+    {
+      "legal_name": "Illumina, Inc.",
+      "aliases": [
+        "Illumina, Inc."
+      ],
+      "approval_count": 6,
+      "approval_rate": 1.0,
+      "case_count": 6,
+      "denied_count": 0,
+      "certified_positions": 6,
+      "industry": "Manufacturing",
+      "naics_code": "33911",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 13
+    },
+    {
+      "legal_name": "RIVIAN, LLC",
+      "aliases": [
+        "Rivian LLC",
+        "RIVIAN, LLC",
+        "Rivian, LLC",
+        "RIVIAN, LLC."
+      ],
+      "approval_count": 6,
+      "approval_rate": 1.0,
+      "case_count": 6,
+      "denied_count": 0,
+      "certified_positions": 6,
+      "industry": "Manufacturing",
+      "naics_code": "336111",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "El Segundo",
+        "Irvine"
+      ],
+      "rank": 14
+    },
+    {
+      "legal_name": "Prime Healthcare Management, Inc",
+      "aliases": [
+        "Prime Healthcare Management, Inc",
+        "PRIME HEALTHCARE MANAGEMENT, INC.",
+        "Prime Healthcare Management, Inc."
+      ],
+      "approval_count": 5,
+      "approval_rate": 1.0,
+      "case_count": 5,
+      "denied_count": 0,
+      "certified_positions": 5,
+      "industry": "Management of companies",
+      "naics_code": "551114",
+      "hq_location": "Ontario, CA",
+      "socal_worksites": [
+        "Garden Grove",
+        "Ontario"
+      ],
+      "rank": 15
+    },
+    {
+      "legal_name": "SNAP INC.",
+      "aliases": [
+        "SNAP INC."
+      ],
+      "approval_count": 5,
+      "approval_rate": 1.0,
+      "case_count": 5,
+      "denied_count": 0,
+      "certified_positions": 5,
+      "industry": "Information",
+      "naics_code": "513210",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 16
+    },
+    {
+      "legal_name": "Finfare, Inc.",
+      "aliases": [
+        "Finfare, Inc."
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Finance & insurance",
+      "naics_code": "525990",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 17
+    },
+    {
+      "legal_name": "Hulu, LLC (indirect subsidiary of The Walt Disney Company)",
+      "aliases": [
+        "Hulu, LLC (indirect subsidiary of The Walt Disney Company)"
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Information",
+      "naics_code": "5121",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 18
+    },
+    {
+      "legal_name": "Majestic IT Services Inc",
+      "aliases": [
+        "Majestic IT Services Inc"
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "Deerfield Beach, FL",
+      "socal_worksites": [
+        "San Diego",
+        "Tustin"
+      ],
+      "rank": 19
+    },
+    {
+      "legal_name": "Open Avenues Foundation",
+      "aliases": [
+        "Open Avenues Foundation"
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Other services",
+      "naics_code": "813319",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Lake Forest",
+        "Los Angeles",
+        "Playa Vista",
+        "Santa Ana"
+      ],
+      "rank": 20
+    },
+    {
+      "legal_name": "rPlanet Earth Los Angeles, LLC",
+      "aliases": [
+        "rPlanet Earth Los Angeles, LLC"
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Manufacturing",
+      "naics_code": "32619",
+      "hq_location": "Vernon, CA",
+      "socal_worksites": [
+        "Vernon"
+      ],
+      "rank": 21
+    },
+    {
+      "legal_name": "Tesla, Inc.",
+      "aliases": [
+        "Tesla, Inc."
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Manufacturing",
+      "naics_code": "336110",
+      "hq_location": "Austin, TX",
+      "socal_worksites": [
+        "Hawthorne",
+        "Los Angeles",
+        "San Diego"
+      ],
+      "rank": 22
+    },
+    {
+      "legal_name": "ThoughtFocus, Inc.",
+      "aliases": [
+        "ThoughtFocus, Inc."
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Brookfield, TX",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 23
+    },
+    {
+      "legal_name": "Tinder LLC",
+      "aliases": [
+        "Match Group LLC",
+        "Tinder LLC"
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541613",
+      "hq_location": "Dallas, TX",
+      "socal_worksites": [
+        "West Hollywood"
+      ],
+      "rank": 24
+    },
+    {
+      "legal_name": "ZipRecruiter, Inc.",
+      "aliases": [
+        "ZipRecruiter, Inc."
+      ],
+      "approval_count": 4,
+      "approval_rate": 1.0,
+      "case_count": 4,
+      "denied_count": 0,
+      "certified_positions": 4,
+      "industry": "Administrative & support services",
+      "naics_code": "561311",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica",
+        "Torrance"
+      ],
+      "rank": 25
+    },
+    {
+      "legal_name": "Applied Medical Resources Corporation",
+      "aliases": [
+        "Applied Medical Resources Corporation"
+      ],
+      "approval_count": 3,
+      "approval_rate": 1.0,
+      "case_count": 3,
+      "denied_count": 0,
+      "certified_positions": 3,
+      "industry": "Manufacturing",
+      "naics_code": "339112",
+      "hq_location": "RANCHO SANTA MARGARITA, CA",
+      "socal_worksites": [
+        "Rancho Santa Margarita",
+        "RANCHO SANTA MARGARITA"
+      ],
+      "rank": 26
+    },
+    {
+      "legal_name": "Capital Group Companies Global",
+      "aliases": [
+        "Capital Group Companies Global"
+      ],
+      "approval_count": 3,
+      "approval_rate": 1.0,
+      "case_count": 3,
+      "denied_count": 0,
+      "certified_positions": 3,
+      "industry": "Finance & insurance",
+      "naics_code": "523150",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 27
+    },
+    {
+      "legal_name": "Conjecture Consulting LLC",
+      "aliases": [
+        "Conjecture Consulting LLC"
+      ],
+      "approval_count": 3,
+      "approval_rate": 1.0,
+      "case_count": 3,
+      "denied_count": 0,
+      "certified_positions": 3,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine",
+        "Pomona",
+        "Tustin"
+      ],
+      "rank": 28
+    },
+    {
+      "legal_name": "Fancycom Inc.",
+      "aliases": [
+        "Fancycom Inc."
+      ],
+      "approval_count": 3,
+      "approval_rate": 1.0,
+      "case_count": 3,
+      "denied_count": 0,
+      "certified_positions": 3,
+      "industry": "Finance & insurance",
+      "naics_code": "522320",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 29
+    },
+    {
+      "legal_name": "Wildlight Entertainment, Inc.",
+      "aliases": [
+        "Wildlight Entertainment, Inc."
+      ],
+      "approval_count": 3,
+      "approval_rate": 1.0,
+      "case_count": 3,
+      "denied_count": 0,
+      "certified_positions": 3,
+      "industry": "Information",
+      "naics_code": "511210",
+      "hq_location": "Woodland Hills, CA",
+      "socal_worksites": [
+        "Los Angeles",
+        "Santa Monica",
+        "Woodland Hills"
+      ],
+      "rank": 30
+    },
+    {
+      "legal_name": "Abit USA, Inc.",
+      "aliases": [
+        "Abit USA, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Wholesale trade",
+      "naics_code": "42512",
+      "hq_location": "Duff, TN",
+      "socal_worksites": [
+        "South Pasadena"
+      ],
+      "rank": 31
+    },
+    {
+      "legal_name": "Advanced Bionics LLC",
+      "aliases": [
+        "Advanced Bionics LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "Valencia, CA",
+      "socal_worksites": [
+        "Valencia"
+      ],
+      "rank": 32
+    },
+    {
+      "legal_name": "American General Life Insurance Company",
+      "aliases": [
+        "American General Life Insurance Company"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Finance & insurance",
+      "naics_code": "5241",
+      "hq_location": "Jersey City, NJ",
+      "socal_worksites": [
+        "Woodland Hills"
+      ],
+      "rank": 33
+    },
+    {
+      "legal_name": "Argonaut Manufacturing Services, Inc.",
+      "aliases": [
+        "Argonaut Manufacturing Services, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541614",
+      "hq_location": "Carlsbad, CA",
+      "socal_worksites": [
+        "Carlsbad"
+      ],
+      "rank": 34
+    },
+    {
+      "legal_name": "Arup US, Inc.",
+      "aliases": [
+        "Arup US, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541330",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 35
+    },
+    {
+      "legal_name": "Bio-Med Services, Inc.",
+      "aliases": [
+        "BIO-MED SERVICES, INC.",
+        "Bio-Med Services, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Other services",
+      "naics_code": "811219",
+      "hq_location": "Ontario, CA",
+      "socal_worksites": [
+        "Ontario"
+      ],
+      "rank": 36
+    },
+    {
+      "legal_name": "Covidien LP",
+      "aliases": [
+        "Covidien LP"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "339112",
+      "hq_location": "Minneapolis, MN",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 37
+    },
+    {
+      "legal_name": "Edwards Lifesciences LLC",
+      "aliases": [
+        "Edwards Lifesciences LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "33911",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 38
+    },
+    {
+      "legal_name": "Epson America Inc",
+      "aliases": [
+        "Epson America Inc",
+        "EPSON AMERICA INC."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "3341",
+      "hq_location": "LOS ALAMITOS, CA",
+      "socal_worksites": [
+        "Los Alamitos"
+      ],
+      "rank": 39
+    },
+    {
+      "legal_name": "Faraday & Future Inc.",
+      "aliases": [
+        "Faraday & Future Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "336110",
+      "hq_location": "Gardena, CA",
+      "socal_worksites": [
+        "GARDENA"
+      ],
+      "rank": 40
+    },
+    {
+      "legal_name": "Finfare Financial Inc.",
+      "aliases": [
+        "Finfare Financial Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Information",
+      "naics_code": "518210",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 41
+    },
+    {
+      "legal_name": "Flawless AI Inc",
+      "aliases": [
+        "Flawless AI Inc"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 42
+    },
+    {
+      "legal_name": "GEP Administrative Services, Inc.",
+      "aliases": [
+        "GEP Administrative Services, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541214",
+      "hq_location": "Burbank, CA",
+      "socal_worksites": [
+        "Burbank"
+      ],
+      "rank": 43
+    },
+    {
+      "legal_name": "GoFundMe, Inc.",
+      "aliases": [
+        "GoFundMe, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "5419",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 44
+    },
+    {
+      "legal_name": "Harbinger Motors Inc.",
+      "aliases": [
+        "Harbinger Motors Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541420",
+      "hq_location": "Garden Grove, CA",
+      "socal_worksites": [
+        "Garden Grove"
+      ],
+      "rank": 45
+    },
+    {
+      "legal_name": "HG Insights, Inc.",
+      "aliases": [
+        "HG Insights, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Information",
+      "naics_code": "518210",
+      "hq_location": "Santa Barbara, CA",
+      "socal_worksites": [
+        "Santa Barbara"
+      ],
+      "rank": 46
+    },
+    {
+      "legal_name": "Interra Information Technologies, Inc.",
+      "aliases": [
+        "Interra Information Technologies, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "San Jose, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 47
+    },
+    {
+      "legal_name": "Knobbe, Martens, Olson & Bear, LLP",
+      "aliases": [
+        "Knobbe, Martens, Olson & Bear, LLP"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541110",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 48
+    },
+    {
+      "legal_name": "Koh Young America, Inc",
+      "aliases": [
+        "Koh Young America, Inc",
+        "Koh Young America, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "Duluth, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 49
+    },
+    {
+      "legal_name": "LIFEPOINT REHABILITATION SERVICES, LLC",
+      "aliases": [
+        "LIFEPOINT REHABILITATION SERVICES, LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Health care & social assistance",
+      "naics_code": "621340",
+      "hq_location": "BRENTWOOD, TN",
+      "socal_worksites": [
+        "La Mirada",
+        "Ontario"
+      ],
+      "rank": 50
+    },
+    {
+      "legal_name": "Marvell Semiconductor, Inc.",
+      "aliases": [
+        "Marvell Semiconductor, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "334413",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 51
+    },
+    {
+      "legal_name": "Meyers Manx, LLC",
+      "aliases": [
+        "Meyers Manx, LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "336110",
+      "hq_location": "Costa Mesa, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 52
+    },
+    {
+      "legal_name": "MPG Operations LLC",
+      "aliases": [
+        "MPG Operations LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Finance & insurance",
+      "naics_code": "5239",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 53
+    },
+    {
+      "legal_name": "Mphasis Corporation",
+      "aliases": [
+        "Mphasis Corporation"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Woodland Hills"
+      ],
+      "rank": 54
+    },
+    {
+      "legal_name": "NeuIntel, LLC",
+      "aliases": [
+        "NeuIntel, LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 55
+    },
+    {
+      "legal_name": "RSM US LLP",
+      "aliases": [
+        "RSM US LLP"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "5412",
+      "hq_location": "CHICAGO, IL",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 56
+    },
+    {
+      "legal_name": "Simplehuman, LLC",
+      "aliases": [
+        "Simplehuman, LLC"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Wholesale trade",
+      "naics_code": "42399",
+      "hq_location": "TORRANCE, CA",
+      "socal_worksites": [
+        "TORRANCE",
+        "Torrance"
+      ],
+      "rank": 57
+    },
+    {
+      "legal_name": "Skyworks Solutions, Inc.",
+      "aliases": [
+        "Skyworks Solutions, Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Manufacturing",
+      "naics_code": "33441",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine",
+        "NEWBURY PARK"
+      ],
+      "rank": 58
+    },
+    {
+      "legal_name": "Teradata U.S. Inc",
+      "aliases": [
+        "Teradata U.S. Inc"
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541513",
+      "hq_location": "Peachtree Corners, GA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 59
+    },
+    {
+      "legal_name": "U.S. Borax Inc.",
+      "aliases": [
+        "U.S. Borax Inc."
+      ],
+      "approval_count": 2,
+      "approval_rate": 1.0,
+      "case_count": 2,
+      "denied_count": 0,
+      "certified_positions": 2,
+      "industry": "Mining, quarrying & oil and gas",
+      "naics_code": "2131",
+      "hq_location": "Boron, CA",
+      "socal_worksites": [
+        "Boron"
+      ],
+      "rank": 60
+    },
+    {
+      "legal_name": "ABBVIE US LLC",
+      "aliases": [
+        "ABBVIE US LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "3254",
+      "hq_location": "NORTH CHICAGO, IL",
+      "socal_worksites": [
+        "IRVINE"
+      ],
+      "rank": 61
+    },
+    {
+      "legal_name": "AESC US LLC",
+      "aliases": [
+        "AESC US LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "33591",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Fallbrook"
+      ],
+      "rank": 62
+    },
+    {
+      "legal_name": "Aescula Tech Inc.",
+      "aliases": [
+        "Aescula Tech Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541715",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 63
+    },
+    {
+      "legal_name": "Albertson's LLC",
+      "aliases": [
+        "Albertson's LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Retail trade",
+      "naics_code": "445110",
+      "hq_location": "Boise, ID",
+      "socal_worksites": [
+        "Orcutt"
+      ],
+      "rank": 64
+    },
+    {
+      "legal_name": "American Specialty Health Incorporated",
+      "aliases": [
+        "American Specialty Health Incorporated"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "52429",
+      "hq_location": "Carmel, IN",
+      "socal_worksites": [
+        "Poway"
+      ],
+      "rank": 65
+    },
+    {
+      "legal_name": "Aon Consulting, Inc.",
+      "aliases": [
+        "Aon Consulting, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "524210",
+      "hq_location": "Chicago, IL",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 66
+    },
+    {
+      "legal_name": "APPLE SENTITY INDEPENDENT PRODUCTIONS LLC",
+      "aliases": [
+        "APPLE SENTITY INDEPENDENT PRODUCTIONS LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334111",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 67
+    },
+    {
+      "legal_name": "Applied Medical Distribution Corporation",
+      "aliases": [
+        "Applied Medical Distribution Corporation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "339112",
+      "hq_location": "RANCHO SANTA MARGARITA, CA",
+      "socal_worksites": [
+        "Rancho Santa Margarita"
+      ],
+      "rank": 68
+    },
+    {
+      "legal_name": "Axar Laboratories, Inc.",
+      "aliases": [
+        "Axar Laboratories, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "3254",
+      "hq_location": "Corona, CA",
+      "socal_worksites": [
+        "Corona"
+      ],
+      "rank": 69
+    },
+    {
+      "legal_name": "BAIN & COMPANY, INC.",
+      "aliases": [
+        "BAIN & COMPANY, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541611",
+      "hq_location": "Boston, MA",
+      "socal_worksites": [
+        "LOS ANGELES"
+      ],
+      "rank": 70
+    },
+    {
+      "legal_name": "BALLENTINE ARCHITECTS STUDIO INC",
+      "aliases": [
+        "BALLENTINE ARCHITECTS STUDIO INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541310",
+      "hq_location": "LOS ANGELES, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 71
+    },
+    {
+      "legal_name": "Becton, Dickinson and Company",
+      "aliases": [
+        "Becton, Dickinson and Company"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "339112",
+      "hq_location": "Franklin Lakes, NJ",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 72
+    },
+    {
+      "legal_name": "Berry Petroleum Company, LLC",
+      "aliases": [
+        "Berry Petroleum Company, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Mining, quarrying & oil and gas",
+      "naics_code": "2111",
+      "hq_location": "Dallas, TX",
+      "socal_worksites": [
+        "Bakersfield"
+      ],
+      "rank": 73
+    },
+    {
+      "legal_name": "Bionexus Consulting LLC",
+      "aliases": [
+        "Bionexus Consulting LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 74
+    },
+    {
+      "legal_name": "Brightside Benefit, Inc.",
+      "aliases": [
+        "Brightside Benefit, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "523930",
+      "hq_location": "Chandler, AZ",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 75
+    },
+    {
+      "legal_name": "Bureau Veritas North America, Inc.",
+      "aliases": [
+        "Bureau Veritas North America, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54138",
+      "hq_location": "Houston, TX",
+      "socal_worksites": [
+        "Mojave"
+      ],
+      "rank": 76
+    },
+    {
+      "legal_name": "BYD Coach and Bus LLC",
+      "aliases": [
+        "BYD Coach and Bus LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "423110",
+      "hq_location": "Pasadena, CA",
+      "socal_worksites": [
+        "Lancaster"
+      ],
+      "rank": 77
+    },
+    {
+      "legal_name": "C&O Manufacturing, Inc.",
+      "aliases": [
+        "C&O Manufacturing, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "337121",
+      "hq_location": "Pico Rivera, CA",
+      "socal_worksites": [
+        "Pico Rivera"
+      ],
+      "rank": 78
+    },
+    {
+      "legal_name": "Cadena Platforms LLC",
+      "aliases": [
+        "Cadena Platforms LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "513210",
+      "hq_location": "El Segundo, CA",
+      "socal_worksites": [
+        "El Segundo"
+      ],
+      "rank": 79
+    },
+    {
+      "legal_name": "California Department of Corrections and Rehabilitation",
+      "aliases": [
+        "California Department of Corrections and Rehabilitation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Public administration",
+      "naics_code": "92214",
+      "hq_location": "Elk Grove, CA",
+      "socal_worksites": [
+        "San Luis Obispo"
+      ],
+      "rank": 80
+    },
+    {
+      "legal_name": "Cape Cod Healthcare, Inc.",
+      "aliases": [
+        "Cape Cod Healthcare, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "622110",
+      "hq_location": "Hyannis, MA",
+      "socal_worksites": [
+        "Santa Fe Springs"
+      ],
+      "rank": 81
+    },
+    {
+      "legal_name": "Celesdata Inc.",
+      "aliases": [
+        "Celesdata Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Irving, TX",
+      "socal_worksites": [
+        "Temecula"
+      ],
+      "rank": 82
+    },
+    {
+      "legal_name": "Cellics Therapeutics, Inc.",
+      "aliases": [
+        "Cellics Therapeutics, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 83
+    },
+    {
+      "legal_name": "Centiva Capital, LP",
+      "aliases": [
+        "Centiva Capital, LP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "523920",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "El Segundo"
+      ],
+      "rank": 84
+    },
+    {
+      "legal_name": "Certain Satisfaction International Education LLC",
+      "aliases": [
+        "Certain Satisfaction International Education LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611710",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 85
+    },
+    {
+      "legal_name": "Chagee CA LLC",
+      "aliases": [
+        "Chagee CA LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Accommodation & food services",
+      "naics_code": "722515",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 86
+    },
+    {
+      "legal_name": "Chen & Fan Accountancy Corporation",
+      "aliases": [
+        "Chen & Fan Accountancy Corporation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541211",
+      "hq_location": "San Jose, CA",
+      "socal_worksites": [
+        "El Monte"
+      ],
+      "rank": 87
+    },
+    {
+      "legal_name": "Children's Hospital Los Angeles",
+      "aliases": [
+        "Children's Hospital Los Angeles"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "622110",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 88
+    },
+    {
+      "legal_name": "Claremont McKenna College",
+      "aliases": [
+        "Claremont McKenna College"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Claremont, CA",
+      "socal_worksites": [
+        "Claremont"
+      ],
+      "rank": 89
+    },
+    {
+      "legal_name": "Clari, Inc.",
+      "aliases": [
+        "Clari, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "518210",
+      "hq_location": "Sunnyvale, CA",
+      "socal_worksites": [
+        "Newbury Park"
+      ],
+      "rank": 90
+    },
+    {
+      "legal_name": "CNM, LLP",
+      "aliases": [
+        "CNM, LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54121",
+      "hq_location": "Woodland Hills, CA",
+      "socal_worksites": [
+        "Woodland Hills"
+      ],
+      "rank": 91
+    },
+    {
+      "legal_name": "CompassX Group, Inc. d/b/a CompassX Consulting",
+      "aliases": [
+        "CompassX Group, Inc. d/b/a CompassX Consulting"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541618",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Carlsbad"
+      ],
+      "rank": 92
+    },
+    {
+      "legal_name": "Comprehensive Psychiatric Solutions, P.C.",
+      "aliases": [
+        "Comprehensive Psychiatric Solutions, P.C."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "621112",
+      "hq_location": "Troy, MI",
+      "socal_worksites": [
+        "Ventura"
+      ],
+      "rank": 93
+    },
+    {
+      "legal_name": "Conjecture Consulting INC",
+      "aliases": [
+        "Conjecture Consulting INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "IRVINE, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 94
+    },
+    {
+      "legal_name": "Conrad N. Hilton Foundation",
+      "aliases": [
+        "Conrad N. Hilton Foundation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Other services",
+      "naics_code": "813211",
+      "hq_location": "Westlake Village, CA",
+      "socal_worksites": [
+        "Westlake Village"
+      ],
+      "rank": 95
+    },
+    {
+      "legal_name": "Continental Autonomous Mobility US, LLC",
+      "aliases": [
+        "Continental Autonomous Mobility US, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "3363",
+      "hq_location": "Auburn Hills, MI",
+      "socal_worksites": [
+        "Carpinteria"
+      ],
+      "rank": 96
+    },
+    {
+      "legal_name": "CORPORATE SOLUTIONS GENERAL INC",
+      "aliases": [
+        "CORPORATE SOLUTIONS GENERAL INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "HOUSTON, TX",
+      "socal_worksites": [
+        "Cypress"
+      ],
+      "rank": 97
+    },
+    {
+      "legal_name": "Croda Inc.",
+      "aliases": [
+        "Croda Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "424690",
+      "hq_location": "Plainsboro, NJ",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 98
+    },
+    {
+      "legal_name": "CrowdStrike, Inc.",
+      "aliases": [
+        "CrowdStrike, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "Sunnyvale, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 99
+    },
+    {
+      "legal_name": "CxOps, LLC",
+      "aliases": [
+        "CxOps, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "518210",
+      "hq_location": "El Segundo, CA",
+      "socal_worksites": [
+        "Torrance"
+      ],
+      "rank": 100
+    },
+    {
+      "legal_name": "Cypress Creek Renewables, LLC",
+      "aliases": [
+        "Cypress Creek Renewables, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Utilities",
+      "naics_code": "221114",
+      "hq_location": "Santa Monica, CA",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 101
+    },
+    {
+      "legal_name": "Daybreak Game Company LLC",
+      "aliases": [
+        "Daybreak Game Company LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "51121",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 102
+    },
+    {
+      "legal_name": "Dazzlon Computer Services Inc",
+      "aliases": [
+        "Dazzlon Computer Services Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "McKinney, TX",
+      "socal_worksites": [
+        "Newport Beach"
+      ],
+      "rank": 103
+    },
+    {
+      "legal_name": "Deep Seas, LLC",
+      "aliases": [
+        "Deep Seas, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 104
+    },
+    {
+      "legal_name": "DISNEY PARKS TECHNOLOGY SERVICES CO., LLC",
+      "aliases": [
+        "DISNEY PARKS TECHNOLOGY SERVICES CO., LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "BURBANK, CA",
+      "socal_worksites": [
+        "ANAHEIM"
+      ],
+      "rank": 105
+    },
+    {
+      "legal_name": "Dorado Design & Construction, Inc.",
+      "aliases": [
+        "Dorado Design & Construction, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Construction",
+      "naics_code": "236220",
+      "hq_location": "Pasadena, CA",
+      "socal_worksites": [
+        "Pasadena"
+      ],
+      "rank": 106
+    },
+    {
+      "legal_name": "Dropbox, Inc.",
+      "aliases": [
+        "Dropbox, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "518210",
+      "hq_location": "San Francisco, CA",
+      "socal_worksites": [
+        "Whittier"
+      ],
+      "rank": 107
+    },
+    {
+      "legal_name": "DYN365, INC.",
+      "aliases": [
+        "DYN365, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "IRVINE, CA",
+      "socal_worksites": [
+        "Rancho Santa Margarita"
+      ],
+      "rank": 108
+    },
+    {
+      "legal_name": "Earnest LLC",
+      "aliases": [
+        "Earnest LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "522291",
+      "hq_location": "San Francsico, CA",
+      "socal_worksites": [
+        "Upland"
+      ],
+      "rank": 109
+    },
+    {
+      "legal_name": "Elevate Semiconductor, Inc.",
+      "aliases": [
+        "Elevate Semiconductor, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334413",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 110
+    },
+    {
+      "legal_name": "Elite Lighting",
+      "aliases": [
+        "Elite Lighting"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "423610",
+      "hq_location": "Commerce, CA",
+      "socal_worksites": [
+        "Commerce"
+      ],
+      "rank": 111
+    },
+    {
+      "legal_name": "Enevate Corporation",
+      "aliases": [
+        "Enevate Corporation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541715",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 112
+    },
+    {
+      "legal_name": "EOS Accountants LLP",
+      "aliases": [
+        "EOS Accountants LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541211",
+      "hq_location": "Teaneck, NJ",
+      "socal_worksites": [
+        "Torrance"
+      ],
+      "rank": 113
+    },
+    {
+      "legal_name": "Evite, Inc.",
+      "aliases": [
+        "Evite, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 114
+    },
+    {
+      "legal_name": "Family Health Centers of San Diego, Inc.",
+      "aliases": [
+        "Family Health Centers of San Diego, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "62149",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 115
+    },
+    {
+      "legal_name": "Fashion Nova, LLC",
+      "aliases": [
+        "Fashion Nova, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "31599",
+      "hq_location": "Vernon, CA",
+      "socal_worksites": [
+        "Vernon"
+      ],
+      "rank": 116
+    },
+    {
+      "legal_name": "Fish & Richardson P.C.",
+      "aliases": [
+        "Fish & Richardson P.C."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54111",
+      "hq_location": "Minneapolis, MN",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 117
+    },
+    {
+      "legal_name": "Forge Technology, Inc",
+      "aliases": [
+        "Forge Technology, Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 118
+    },
+    {
+      "legal_name": "GlobalLogic Inc.",
+      "aliases": [
+        "GlobalLogic Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 119
+    },
+    {
+      "legal_name": "Grant Thornton Advisors LLC",
+      "aliases": [
+        "Grant Thornton Advisors LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541219",
+      "hq_location": "Chicago, IL",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 120
+    },
+    {
+      "legal_name": "Green Hills Software LLC",
+      "aliases": [
+        "Green Hills Software LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "511210",
+      "hq_location": "Santa Barbara, CA",
+      "socal_worksites": [
+        "Santa Barbara"
+      ],
+      "rank": 121
+    },
+    {
+      "legal_name": "Gridspace, Inc",
+      "aliases": [
+        "Gridspace, Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "423430",
+      "hq_location": "San Francisco, CO",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 122
+    },
+    {
+      "legal_name": "HARMAN CONNECTED SERVICES, INC.",
+      "aliases": [
+        "HARMAN CONNECTED SERVICES, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "MOUNTAIN VIEW, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 123
+    },
+    {
+      "legal_name": "HCL AMERICA INC",
+      "aliases": [
+        "HCL AMERICA INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 124
+    },
+    {
+      "legal_name": "Hector Systems Inc",
+      "aliases": [
+        "Hector Systems Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Irving, TX",
+      "socal_worksites": [
+        "WoodlandHills"
+      ],
+      "rank": 125
+    },
+    {
+      "legal_name": "HENSEL PHELPS CONSTRUCTION CO",
+      "aliases": [
+        "HENSEL PHELPS CONSTRUCTION CO"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Construction",
+      "naics_code": "236220",
+      "hq_location": "GREELEY, CO",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 126
+    },
+    {
+      "legal_name": "High Temperature Superconductors, Inc.",
+      "aliases": [
+        "High Temperature Superconductors, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "339999",
+      "hq_location": "Santa Barbara, CA",
+      "socal_worksites": [
+        "Santa Barbara"
+      ],
+      "rank": 127
+    },
+    {
+      "legal_name": "Hire IT People, Inc",
+      "aliases": [
+        "Hire IT People, Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Piscataway, NJ",
+      "socal_worksites": [
+        "Eastvale"
+      ],
+      "rank": 128
+    },
+    {
+      "legal_name": "HOT TOPIC, INC.",
+      "aliases": [
+        "HOT TOPIC, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "31599",
+      "hq_location": "CITY OF INDUSTRY, CA",
+      "socal_worksites": [
+        "Riverside"
+      ],
+      "rank": 129
+    },
+    {
+      "legal_name": "Hotta Liesenberg Saito LLP",
+      "aliases": [
+        "Hotta Liesenberg Saito LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541211",
+      "hq_location": "Torrance, CA",
+      "socal_worksites": [
+        "Torrance"
+      ],
+      "rank": 130
+    },
+    {
+      "legal_name": "Huntington Medical Research Institutes",
+      "aliases": [
+        "Huntington Medical Research Institutes"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "5417",
+      "hq_location": "PASADENA, CA",
+      "socal_worksites": [
+        "PASADENA"
+      ],
+      "rank": 131
+    },
+    {
+      "legal_name": "Hyundai AutoEver America, LLC",
+      "aliases": [
+        "Hyundai AutoEver America, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "5191",
+      "hq_location": "Fountain Valley, CA",
+      "socal_worksites": [
+        "Costa Mesa"
+      ],
+      "rank": 132
+    },
+    {
+      "legal_name": "IGT",
+      "aliases": [
+        "IGT"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Arts, entertainment & recreation",
+      "naics_code": "71329",
+      "hq_location": "LAS VEGAS, NV",
+      "socal_worksites": [
+        "SAN DIEGO"
+      ],
+      "rank": 133
+    },
+    {
+      "legal_name": "Infinity Global, Inc.",
+      "aliases": [
+        "Infinity Global, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "423990",
+      "hq_location": "Danville, VA",
+      "socal_worksites": [
+        "Eastvale"
+      ],
+      "rank": 134
+    },
+    {
+      "legal_name": "Intervet Inc.",
+      "aliases": [
+        "Intervet Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "Rahway, NJ",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 135
+    },
+    {
+      "legal_name": "IQVIA Inc.",
+      "aliases": [
+        "IQVIA Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541618",
+      "hq_location": "Durham, NC",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 136
+    },
+    {
+      "legal_name": "iSharingSoft, Inc.",
+      "aliases": [
+        "iSharingSoft, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "513210",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 137
+    },
+    {
+      "legal_name": "James Hardie Building Products, Inc.",
+      "aliases": [
+        "James Hardie Building Products, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "327420",
+      "hq_location": "Chicago, IL",
+      "socal_worksites": [
+        "Claremont"
+      ],
+      "rank": 138
+    },
+    {
+      "legal_name": "KBR Wyle Services LLC",
+      "aliases": [
+        "KBR Wyle Services LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541330",
+      "hq_location": "Houston, TX",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 139
+    },
+    {
+      "legal_name": "KELLERMEYER BERGENSONS SERVICES LLC",
+      "aliases": [
+        "KELLERMEYER BERGENSONS SERVICES LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Administrative & support services",
+      "naics_code": "561720",
+      "hq_location": "Oceanside, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 140
+    },
+    {
+      "legal_name": "KIHUN SUNG D.D.S. INC.",
+      "aliases": [
+        "KIHUN SUNG D.D.S. INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "62121",
+      "hq_location": "Pomona, CA",
+      "socal_worksites": [
+        "Ontario"
+      ],
+      "rank": 141
+    },
+    {
+      "legal_name": "Kinovate Life Sciences, Inc.",
+      "aliases": [
+        "Kinovate Life Sciences, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "Oceanside, CA",
+      "socal_worksites": [
+        "Oceanside"
+      ],
+      "rank": 142
+    },
+    {
+      "legal_name": "Knight Management Insurance Services LLC",
+      "aliases": [
+        "Knight Management Insurance Services LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "52429",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 143
+    },
+    {
+      "legal_name": "KPMG LLP",
+      "aliases": [
+        "KPMG LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54121",
+      "hq_location": "Dallas, TX",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 144
+    },
+    {
+      "legal_name": "Laksan Technologies LLC",
+      "aliases": [
+        "Laksan Technologies LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Metuchen, NJ",
+      "socal_worksites": [
+        "Fontana"
+      ],
+      "rank": 145
+    },
+    {
+      "legal_name": "LAUSD Student Health Support Services Fund, Inc.",
+      "aliases": [
+        "LAUSD Student Health Support Services Fund, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611710",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 146
+    },
+    {
+      "legal_name": "Ligentia USA Inc.",
+      "aliases": [
+        "Ligentia USA Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541614",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 147
+    },
+    {
+      "legal_name": "LOBEL FINANCIAL CORPORATION",
+      "aliases": [
+        "LOBEL FINANCIAL CORPORATION"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "522220",
+      "hq_location": "Anaheim, CA",
+      "socal_worksites": [
+        "Anaheim"
+      ],
+      "rank": 148
+    },
+    {
+      "legal_name": "M. Arthur Gensler Jr. & Associates, Inc.",
+      "aliases": [
+        "M. Arthur Gensler Jr. & Associates, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541310",
+      "hq_location": "San Francisco, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 149
+    },
+    {
+      "legal_name": "MACOM TECHNOLOGY SOLUTIONS,INC.",
+      "aliases": [
+        "MACOM TECHNOLOGY SOLUTIONS,INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334290",
+      "hq_location": "LOWELL, MA",
+      "socal_worksites": [
+        "NEWPORT BEACH"
+      ],
+      "rank": 150
+    },
+    {
+      "legal_name": "Mathematica, Inc.",
+      "aliases": [
+        "Mathematica, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541720",
+      "hq_location": "Princeton, NJ",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 151
+    },
+    {
+      "legal_name": "Medical Management International, Inc.",
+      "aliases": [
+        "Medical Management International, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541940",
+      "hq_location": "Vancouver, WA",
+      "socal_worksites": [
+        "Laguna Hills"
+      ],
+      "rank": 152
+    },
+    {
+      "legal_name": "Medtronic, Inc.",
+      "aliases": [
+        "Medtronic, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334510",
+      "hq_location": "Fridley, MN",
+      "socal_worksites": [
+        "North Ridge"
+      ],
+      "rank": 153
+    },
+    {
+      "legal_name": "Michael Baker International, Inc.",
+      "aliases": [
+        "Michael Baker International, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541330",
+      "hq_location": "Pittsburgh, PA",
+      "socal_worksites": [
+        "Ontario"
+      ],
+      "rank": 154
+    },
+    {
+      "legal_name": "Mile Rock Capital Management LLC",
+      "aliases": [
+        "Mile Rock Capital Management LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "523940",
+      "hq_location": "Larkspur, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 155
+    },
+    {
+      "legal_name": "Moelis & Company Group LP",
+      "aliases": [
+        "Moelis & Company Group LP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "5239",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 156
+    },
+    {
+      "legal_name": "Molex, LLC",
+      "aliases": [
+        "Molex, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334417",
+      "hq_location": "Lisle, IL",
+      "socal_worksites": [
+        "Carlsbad"
+      ],
+      "rank": 157
+    },
+    {
+      "legal_name": "Monster Energy US LLC",
+      "aliases": [
+        "Monster Energy US LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "312111",
+      "hq_location": "Corona, CA",
+      "socal_worksites": [
+        "Corona"
+      ],
+      "rank": 158
+    },
+    {
+      "legal_name": "Narrative Ads",
+      "aliases": [
+        "Narrative Ads"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541810",
+      "hq_location": "Pasadena, CA",
+      "socal_worksites": [
+        "Pasadena"
+      ],
+      "rank": 159
+    },
+    {
+      "legal_name": "Netstar (US) Inc.",
+      "aliases": [
+        "Netstar (US) Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541519",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 160
+    },
+    {
+      "legal_name": "Neurocrine Biosciences, Inc.",
+      "aliases": [
+        "Neurocrine Biosciences, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 161
+    },
+    {
+      "legal_name": "Newport Fab LLC",
+      "aliases": [
+        "Newport Fab LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334413",
+      "hq_location": "Newport Beach, CA",
+      "socal_worksites": [
+        "Newport Beach"
+      ],
+      "rank": 162
+    },
+    {
+      "legal_name": "NEXT GEAR SOLUTIONS, LLC",
+      "aliases": [
+        "NEXT GEAR SOLUTIONS, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Oxford, MS",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 163
+    },
+    {
+      "legal_name": "Northwestern University",
+      "aliases": [
+        "Northwestern University"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Evanston, IL",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 164
+    },
+    {
+      "legal_name": "Numann Technologies, Inc.",
+      "aliases": [
+        "Numann Technologies, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Rancho Cordova, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 165
+    },
+    {
+      "legal_name": "NVIDIA Corporation",
+      "aliases": [
+        "NVIDIA Corporation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334111",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 166
+    },
+    {
+      "legal_name": "Odyssey Therapeutics Inc",
+      "aliases": [
+        "Odyssey Therapeutics Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "Boston, MA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 167
+    },
+    {
+      "legal_name": "OliX US, Inc.",
+      "aliases": [
+        "OliX US, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "5417",
+      "hq_location": "Lexington, MA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 168
+    },
+    {
+      "legal_name": "OneH2, Inc.",
+      "aliases": [
+        "OneH2, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "325120",
+      "hq_location": "Longview, NC",
+      "socal_worksites": [
+        "Long Beach"
+      ],
+      "rank": 169
+    },
+    {
+      "legal_name": "PANGAEA HOLDINGS, INC.",
+      "aliases": [
+        "PANGAEA HOLDINGS, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Retail trade",
+      "naics_code": "455219",
+      "hq_location": "Laguna Beach, CA",
+      "socal_worksites": [
+        "Monrovia"
+      ],
+      "rank": 170
+    },
+    {
+      "legal_name": "Persistent Systems Limited",
+      "aliases": [
+        "Persistent Systems Limited"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Santa Clara, CA",
+      "socal_worksites": [
+        "Carlsbad"
+      ],
+      "rank": 171
+    },
+    {
+      "legal_name": "Pictor Labs Inc",
+      "aliases": [
+        "Pictor Labs Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 172
+    },
+    {
+      "legal_name": "Pleno, Inc.",
+      "aliases": [
+        "Pleno, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 173
+    },
+    {
+      "legal_name": "Polygon Labs Services (Delaware) Inc.",
+      "aliases": [
+        "Polygon Labs Services (Delaware) Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "West Hollywood, CA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 174
+    },
+    {
+      "legal_name": "Power Source Inc",
+      "aliases": [
+        "Power Source Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "424940",
+      "hq_location": "MARINA DEL REY, CA",
+      "socal_worksites": [
+        "MARINA DEL REY"
+      ],
+      "rank": 175
+    },
+    {
+      "legal_name": "Predactiv, Inc.",
+      "aliases": [
+        "Predactiv, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "519190",
+      "hq_location": "Palo Alto, CA",
+      "socal_worksites": [
+        "Santa Ana"
+      ],
+      "rank": 176
+    },
+    {
+      "legal_name": "Prime Healthcare La Palma, LLC",
+      "aliases": [
+        "Prime Healthcare La Palma, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "622110",
+      "hq_location": "La Palma, CA",
+      "socal_worksites": [
+        "La Palma"
+      ],
+      "rank": 177
+    },
+    {
+      "legal_name": "Prime Healthcare Services \u2013 Sherman Oaks, LLC",
+      "aliases": [
+        "Prime Healthcare Services \u2013 Sherman Oaks, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "622110",
+      "hq_location": "Sherman Oaks, CA",
+      "socal_worksites": [
+        "Sherman Oaks"
+      ],
+      "rank": 178
+    },
+    {
+      "legal_name": "Private National Mortgage Acceptance Company, LLC",
+      "aliases": [
+        "Private National Mortgage Acceptance Company, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "522292",
+      "hq_location": "Moorpark, CA",
+      "socal_worksites": [
+        "Agoura Hills"
+      ],
+      "rank": 179
+    },
+    {
+      "legal_name": "R.G. Vanderweil Engineers, LLP",
+      "aliases": [
+        "R.G. Vanderweil Engineers, LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541330",
+      "hq_location": "Boston, MA",
+      "socal_worksites": [
+        "Long Beach"
+      ],
+      "rank": 180
+    },
+    {
+      "legal_name": "RDC-S111, Inc.",
+      "aliases": [
+        "RDC-S111, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541310",
+      "hq_location": "Long Beach, CA",
+      "socal_worksites": [
+        "Long Beach"
+      ],
+      "rank": 181
+    },
+    {
+      "legal_name": "Red Hat, Inc.",
+      "aliases": [
+        "Red Hat, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541512",
+      "hq_location": "Raleigh, NC",
+      "socal_worksites": [
+        "Pasadena"
+      ],
+      "rank": 182
+    },
+    {
+      "legal_name": "Riosoft Technology Inc.",
+      "aliases": [
+        "Riosoft Technology Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Cumberland, VA",
+      "socal_worksites": [
+        "Paso Robles"
+      ],
+      "rank": 183
+    },
+    {
+      "legal_name": "RM Info Solutions LLC",
+      "aliases": [
+        "RM Info Solutions LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Kendall Park, NJ",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 184
+    },
+    {
+      "legal_name": "Sahawneh Dental Corporation",
+      "aliases": [
+        "Sahawneh Dental Corporation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "621210",
+      "hq_location": "COSTA MESA, CA",
+      "socal_worksites": [
+        "Hesperia"
+      ],
+      "rank": 185
+    },
+    {
+      "legal_name": "SALIENT MOTION, INC.",
+      "aliases": [
+        "SALIENT MOTION, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "33641",
+      "hq_location": "TORRANCE, CA",
+      "socal_worksites": [
+        "TORRANCE"
+      ],
+      "rank": 186
+    },
+    {
+      "legal_name": "SambaNova Systems Inc.",
+      "aliases": [
+        "SambaNova Systems Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54199",
+      "hq_location": "Palo Alto, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 187
+    },
+    {
+      "legal_name": "Samsung Electronics America, Inc.",
+      "aliases": [
+        "Samsung Electronics America, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "425110",
+      "hq_location": "Ridgefield Park, NJ",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 188
+    },
+    {
+      "legal_name": "Samsung Research America, Inc.",
+      "aliases": [
+        "Samsung Research America, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54171",
+      "hq_location": "Mountain View, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 189
+    },
+    {
+      "legal_name": "San Diego State University Research Foundation",
+      "aliases": [
+        "San Diego State University Research Foundation"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Other services",
+      "naics_code": "813211",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 190
+    },
+    {
+      "legal_name": "Sapient Bioanalytics, LLC",
+      "aliases": [
+        "Sapient Bioanalytics, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541714",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 191
+    },
+    {
+      "legal_name": "Schrodinger, Inc.",
+      "aliases": [
+        "Schrodinger, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 192
+    },
+    {
+      "legal_name": "Scripps Health",
+      "aliases": [
+        "Scripps Health"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Health care & social assistance",
+      "naics_code": "62211",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 193
+    },
+    {
+      "legal_name": "SILICON STAFF IT SERVICES INC",
+      "aliases": [
+        "SILICON STAFF IT SERVICES INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "PRINCETON, NJ",
+      "socal_worksites": [
+        "IRVINE"
+      ],
+      "rank": 194
+    },
+    {
+      "legal_name": "Simpson Strong-Tie Company, Inc.",
+      "aliases": [
+        "Simpson Strong-Tie Company, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "332119",
+      "hq_location": "Pleasanton, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 195
+    },
+    {
+      "legal_name": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "aliases": [
+        "Skadden, Arps, Slate, Meagher & Flom LLP"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541110",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 196
+    },
+    {
+      "legal_name": "Soka University of America",
+      "aliases": [
+        "Soka University of America"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Aliso Viejo, CA",
+      "socal_worksites": [
+        "Aliso Viejo"
+      ],
+      "rank": 197
+    },
+    {
+      "legal_name": "Sonos, Inc.",
+      "aliases": [
+        "Sonos, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334310",
+      "hq_location": "Goleta, CA",
+      "socal_worksites": [
+        "Goleta"
+      ],
+      "rank": 198
+    },
+    {
+      "legal_name": "Spotter, Inc.",
+      "aliases": [
+        "Spotter, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "522291",
+      "hq_location": "Culver City, CA",
+      "socal_worksites": [
+        "Culver City"
+      ],
+      "rank": 199
+    },
+    {
+      "legal_name": "SRF Consulting Group, Inc",
+      "aliases": [
+        "SRF Consulting Group, Inc"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541330",
+      "hq_location": "Wayzata, MN",
+      "socal_worksites": [
+        "Murrieta"
+      ],
+      "rank": 200
+    },
+    {
+      "legal_name": "Strategic Global Advisors, LLC",
+      "aliases": [
+        "Strategic Global Advisors, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "52393",
+      "hq_location": "Newport Beach, CA",
+      "socal_worksites": [
+        "Newport Beach"
+      ],
+      "rank": 201
+    },
+    {
+      "legal_name": "STUBHUB, INC.",
+      "aliases": [
+        "STUBHUB, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Retail trade",
+      "naics_code": "45999",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Santa Monica"
+      ],
+      "rank": 202
+    },
+    {
+      "legal_name": "Suffolk Construction Company, Inc.",
+      "aliases": [
+        "Suffolk Construction Company, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Construction",
+      "naics_code": "23622",
+      "hq_location": "Boston, MA",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 203
+    },
+    {
+      "legal_name": "SWAPP.IO, INC",
+      "aliases": [
+        "SWAPP.IO, INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Tel Aviv",
+      "socal_worksites": [
+        "Los Angeles"
+      ],
+      "rank": 204
+    },
+    {
+      "legal_name": "Tek Labs, Inc.",
+      "aliases": [
+        "Tek Labs, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Farmington Hills, MI",
+      "socal_worksites": [
+        "Tustin"
+      ],
+      "rank": 205
+    },
+    {
+      "legal_name": "TENANT, INC.",
+      "aliases": [
+        "TENANT, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "511210",
+      "hq_location": "NEWPORT BEACH, CA",
+      "socal_worksites": [
+        "NEWPORT BEACH"
+      ],
+      "rank": 206
+    },
+    {
+      "legal_name": "The Fountain Group, LLC",
+      "aliases": [
+        "The Fountain Group, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "5416",
+      "hq_location": "Tampa, FL",
+      "socal_worksites": [
+        "Temecula"
+      ],
+      "rank": 207
+    },
+    {
+      "legal_name": "The Wonderful Company, LLC",
+      "aliases": [
+        "The Wonderful Company, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "31199",
+      "hq_location": "Los Angeles, CA",
+      "socal_worksites": [
+        "Shafter"
+      ],
+      "rank": 208
+    },
+    {
+      "legal_name": "THINKLUSIVE, INC.",
+      "aliases": [
+        "THINKLUSIVE, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "MONMOUTH JUNCTION, NJ",
+      "socal_worksites": [
+        "IRVINE"
+      ],
+      "rank": 209
+    },
+    {
+      "legal_name": "Thoughtstream Enterprises LLC",
+      "aliases": [
+        "Thoughtstream Enterprises LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "511210",
+      "hq_location": "San Juan Capistrano, CA",
+      "socal_worksites": [
+        "San Juan Capistrano"
+      ],
+      "rank": 210
+    },
+    {
+      "legal_name": "Topgolf Callaway Brands Corp.",
+      "aliases": [
+        "Topgolf Callaway Brands Corp."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "339920",
+      "hq_location": "Carlsbad, CA",
+      "socal_worksites": [
+        "CARLSBAD"
+      ],
+      "rank": 211
+    },
+    {
+      "legal_name": "Tubis Technology Inc.",
+      "aliases": [
+        "Tubis Technology Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334413",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 212
+    },
+    {
+      "legal_name": "UMG Recordings Inc.",
+      "aliases": [
+        "UMG Recordings Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "51223",
+      "hq_location": "New York, NY",
+      "socal_worksites": [
+        "Hollywood"
+      ],
+      "rank": 213
+    },
+    {
+      "legal_name": "Universal Electronics Inc.",
+      "aliases": [
+        "Universal Electronics Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "334512",
+      "hq_location": "Scottsdale, AZ",
+      "socal_worksites": [
+        "SANTA ANA"
+      ],
+      "rank": 214
+    },
+    {
+      "legal_name": "University Corporation for Atmospheric Research",
+      "aliases": [
+        "University Corporation for Atmospheric Research"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541715",
+      "hq_location": "Boulder, CO",
+      "socal_worksites": [
+        "Carlsbad"
+      ],
+      "rank": 215
+    },
+    {
+      "legal_name": "UNIVERSITY OF NORTH TEXAS",
+      "aliases": [
+        "UNIVERSITY OF NORTH TEXAS"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Denton, TX",
+      "socal_worksites": [
+        "Pasadena"
+      ],
+      "rank": 216
+    },
+    {
+      "legal_name": "University of San Diego",
+      "aliases": [
+        "University of San Diego"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 217
+    },
+    {
+      "legal_name": "University of Wisconsin System",
+      "aliases": [
+        "University of Wisconsin System"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Educational services",
+      "naics_code": "611310",
+      "hq_location": "Madison, WI",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 218
+    },
+    {
+      "legal_name": "Veradigm LLC",
+      "aliases": [
+        "Veradigm LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Raleigh, NC",
+      "socal_worksites": [
+        "Lake Elsinore"
+      ],
+      "rank": 219
+    },
+    {
+      "legal_name": "VF Outdoor, LLC",
+      "aliases": [
+        "VF Outdoor, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Manufacturing",
+      "naics_code": "31499",
+      "hq_location": "Costa Mesa, CA",
+      "socal_worksites": [
+        "Costa Mesa"
+      ],
+      "rank": 220
+    },
+    {
+      "legal_name": "Vitu, Inc.",
+      "aliases": [
+        "Vitu, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "5182",
+      "hq_location": "Agoura Hills, CA",
+      "socal_worksites": [
+        "Agoura Hills"
+      ],
+      "rank": 221
+    },
+    {
+      "legal_name": "Vividion Therapeutics, Inc.",
+      "aliases": [
+        "Vividion Therapeutics, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "54138",
+      "hq_location": "San Diego, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 222
+    },
+    {
+      "legal_name": "VRGL, Inc.",
+      "aliases": [
+        "VRGL, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Finance & insurance",
+      "naics_code": "523940",
+      "hq_location": "Dallas, TX",
+      "socal_worksites": [
+        "Pasadena"
+      ],
+      "rank": 223
+    },
+    {
+      "legal_name": "WALT DISNEY PICTURES",
+      "aliases": [
+        "WALT DISNEY PICTURES"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Information",
+      "naics_code": "51211",
+      "hq_location": "BURBANK, CA",
+      "socal_worksites": [
+        "BURBANK"
+      ],
+      "rank": 224
+    },
+    {
+      "legal_name": "WHOVA, INC.",
+      "aliases": [
+        "WHOVA, INC."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "SAN DIEGO, CA",
+      "socal_worksites": [
+        "San Diego"
+      ],
+      "rank": 225
+    },
+    {
+      "legal_name": "WIN.IT America, Inc.",
+      "aliases": [
+        "WIN.IT America, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541614",
+      "hq_location": "City of Industry, CA",
+      "socal_worksites": [
+        "City of Industry"
+      ],
+      "rank": 226
+    },
+    {
+      "legal_name": "Wonderful Citrus Packing LLC",
+      "aliases": [
+        "Wonderful Citrus Packing LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Agriculture, forestry, fishing & hunting",
+      "naics_code": "115116",
+      "hq_location": "Delano, CA",
+      "socal_worksites": [
+        "Delano"
+      ],
+      "rank": 227
+    },
+    {
+      "legal_name": "World Wide Technology Holding Company, LLC",
+      "aliases": [
+        "World Wide Technology Holding Company, LLC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Professional, scientific & technical services",
+      "naics_code": "541511",
+      "hq_location": "Maryland Heights, MO",
+      "socal_worksites": [
+        "Costa Mesa"
+      ],
+      "rank": 228
+    },
+    {
+      "legal_name": "ZICO RISING, INC",
+      "aliases": [
+        "ZICO RISING, INC"
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Wholesale trade",
+      "naics_code": "42449",
+      "hq_location": "SEAL BEACH, CA",
+      "socal_worksites": [
+        "SEAL BEACH"
+      ],
+      "rank": 229
+    },
+    {
+      "legal_name": "ZPMC North America, Inc.",
+      "aliases": [
+        "ZPMC North America, Inc."
+      ],
+      "approval_count": 1,
+      "approval_rate": 1.0,
+      "case_count": 1,
+      "denied_count": 0,
+      "certified_positions": 1,
+      "industry": "Other services",
+      "naics_code": "811310",
+      "hq_location": "Irvine, CA",
+      "socal_worksites": [
+        "Irvine"
+      ],
+      "rank": 230
+    }
+  ]
+}

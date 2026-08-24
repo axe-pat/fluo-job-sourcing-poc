@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.pem
+*.key
+*.p12
+*.log
+
+# Runtime state and generated snapshots
+data/*.sqlite
+data/*.sqlite-*
+data/jobs_snapshot.json
+data/refresh_report.json
+data/ats_probe*.json
+
+# Frontend build and local deployment state
+web/node_modules/
+web/dist/
+web/.next/
+web/.vinext/
+web/.wrangler/
+web/coverage/
+web/.env
+web/.env.*
+!web/.env.example

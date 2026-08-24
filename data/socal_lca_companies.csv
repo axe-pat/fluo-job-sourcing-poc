@@ -1,0 +1,231 @@
+rank,legal_name,approval_count,approval_rate,case_count,denied_count,certified_positions,industry,naics_code,hq_location,socal_worksites,aliases
+1,Apple Inc.,70,1.0000,70,0,70,Manufacturing,334111,"Cupertino, CA",Culver City | Irvine | Los Angeles | San Diego,Apple Inc.
+2,"UNIVERSITY OF CALIFORNIA, SAN DIEGO",64,1.0000,64,0,64,Educational services,611310,"LA JOLLA, CA",El Centro | La Jolla | San Diego,"UNIVERSITY OF CALIFORNIA, SAN DIEGO"
+3,California Institute of Technology/Jet Propulsion Laboratory,35,1.0000,35,0,35,Educational services,611310,"Pasadena, CA",Los Angeles | Pasadena | PASADENA,California Institute of Technology | California Institute of Technology/Jet Propulsion Laboratory
+4,The University of Southern California,21,1.0000,21,0,21,Educational services,611310,"Los Angeles, CA",Los Angeles | Playa Vista | San Diego,THE UNIVERSITY OF SOUTHERN CALIFORNIA | The University of Southern California
+5,"Rivian Automotive, LLC",17,1.0000,17,0,17,Manufacturing,336111,"Irvine, CA",Irvine | Torrance | Tustin,"RIVIAN AUTOMOTIVE, LLC | Rivian Automotive, LLC"
+6,Sanford Burnham Prebys Medical Discovery Institute,13,1.0000,13,0,13,"Professional, scientific & technical services",54171,"La Jolla, CA",La Jolla,Sanford Burnham Prebys Medical Discovery Institute
+7,The Scripps Research Institute,13,1.0000,13,0,13,"Professional, scientific & technical services",54171,"La Jolla, CA",La Jolla | San Diego,The Scripps Research Institute
+8,SONY INTERACTIVE ENTERTAINMENT LLC,10,1.0000,10,0,10,"Professional, scientific & technical services",541511,"SAN MATEO, CA",ALISO VIEJO | Los Angeles | San Diego | SAN DIEGO,SONY INTERACTIVE ENTERTAINMENT LLC | Sony Interactive Entertainment LLC
+9,University of California at Santa Barbara,10,1.0000,10,0,10,Educational services,611310,"Santa Barbara, CA",SANTA BARBARA | Santa Barbara,University of California at Santa Barbara
+10,"UNIVERSITY OF CALIFORNIA, IRVINE",9,1.0000,9,0,9,Educational services,611310,"IRVINE, CA",IRVINE,"UNIVERSITY OF CALIFORNIA, IRVINE"
+11,WIPRO LIMITED,6,1.0000,6,0,9,"Professional, scientific & technical services",541511,"EAST BRUNSWICK, NJ",Irvine | Los Angeles | Thousand Oaks | Torrance | Woodland Hills,WIPRO LIMITED
+12,CAPGEMINI AMERICA INC,6,1.0000,6,0,6,"Professional, scientific & technical services",541512,"CHICAGO, IL",CHINO | IRVINE | Irvine | SYLMAR | Westminster,CAPGEMINI AMERICA INC
+13,"Illumina, Inc.",6,1.0000,6,0,6,Manufacturing,33911,"San Diego, CA",San Diego,"Illumina, Inc."
+14,"RIVIAN, LLC",6,1.0000,6,0,6,Manufacturing,336111,"Irvine, CA",El Segundo | Irvine,"Rivian LLC | RIVIAN, LLC | Rivian, LLC | RIVIAN, LLC."
+15,"Prime Healthcare Management, Inc",5,1.0000,5,0,5,Management of companies,551114,"Ontario, CA",Garden Grove | Ontario,"Prime Healthcare Management, Inc | PRIME HEALTHCARE MANAGEMENT, INC. | Prime Healthcare Management, Inc."
+16,SNAP INC.,5,1.0000,5,0,5,Information,513210,"Santa Monica, CA",Santa Monica,SNAP INC.
+17,"Finfare, Inc.",4,1.0000,4,0,4,Finance & insurance,525990,"Irvine, CA",Irvine,"Finfare, Inc."
+18,"Hulu, LLC (indirect subsidiary of The Walt Disney Company)",4,1.0000,4,0,4,Information,5121,"Santa Monica, CA",Santa Monica,"Hulu, LLC (indirect subsidiary of The Walt Disney Company)"
+19,Majestic IT Services Inc,4,1.0000,4,0,4,"Professional, scientific & technical services",541519,"Deerfield Beach, FL",San Diego | Tustin,Majestic IT Services Inc
+20,Open Avenues Foundation,4,1.0000,4,0,4,Other services,813319,"New York, NY",Lake Forest | Los Angeles | Playa Vista | Santa Ana,Open Avenues Foundation
+21,"rPlanet Earth Los Angeles, LLC",4,1.0000,4,0,4,Manufacturing,32619,"Vernon, CA",Vernon,"rPlanet Earth Los Angeles, LLC"
+22,"Tesla, Inc.",4,1.0000,4,0,4,Manufacturing,336110,"Austin, TX",Hawthorne | Los Angeles | San Diego,"Tesla, Inc."
+23,"ThoughtFocus, Inc.",4,1.0000,4,0,4,"Professional, scientific & technical services",541511,"Brookfield, TX",Irvine,"ThoughtFocus, Inc."
+24,Tinder LLC,4,1.0000,4,0,4,"Professional, scientific & technical services",541613,"Dallas, TX",West Hollywood,Match Group LLC | Tinder LLC
+25,"ZipRecruiter, Inc.",4,1.0000,4,0,4,Administrative & support services,561311,"Santa Monica, CA",Santa Monica | Torrance,"ZipRecruiter, Inc."
+26,Applied Medical Resources Corporation,3,1.0000,3,0,3,Manufacturing,339112,"RANCHO SANTA MARGARITA, CA",Rancho Santa Margarita | RANCHO SANTA MARGARITA,Applied Medical Resources Corporation
+27,Capital Group Companies Global,3,1.0000,3,0,3,Finance & insurance,523150,"Los Angeles, CA",Irvine,Capital Group Companies Global
+28,Conjecture Consulting LLC,3,1.0000,3,0,3,"Professional, scientific & technical services",541511,"Irvine, CA",Irvine | Pomona | Tustin,Conjecture Consulting LLC
+29,Fancycom Inc.,3,1.0000,3,0,3,Finance & insurance,522320,"Irvine, CA",Irvine,Fancycom Inc.
+30,"Wildlight Entertainment, Inc.",3,1.0000,3,0,3,Information,511210,"Woodland Hills, CA",Los Angeles | Santa Monica | Woodland Hills,"Wildlight Entertainment, Inc."
+31,"Abit USA, Inc.",2,1.0000,2,0,2,Wholesale trade,42512,"Duff, TN",South Pasadena,"Abit USA, Inc."
+32,Advanced Bionics LLC,2,1.0000,2,0,2,"Professional, scientific & technical services",54171,"Valencia, CA",Valencia,Advanced Bionics LLC
+33,American General Life Insurance Company,2,1.0000,2,0,2,Finance & insurance,5241,"Jersey City, NJ",Woodland Hills,American General Life Insurance Company
+34,"Argonaut Manufacturing Services, Inc.",2,1.0000,2,0,2,"Professional, scientific & technical services",541614,"Carlsbad, CA",Carlsbad,"Argonaut Manufacturing Services, Inc."
+35,"Arup US, Inc.",2,1.0000,2,0,2,"Professional, scientific & technical services",541330,"New York, NY",Los Angeles,"Arup US, Inc."
+36,"Bio-Med Services, Inc.",2,1.0000,2,0,2,Other services,811219,"Ontario, CA",Ontario,"BIO-MED SERVICES, INC. | Bio-Med Services, Inc."
+37,Covidien LP,2,1.0000,2,0,2,Manufacturing,339112,"Minneapolis, MN",Irvine,Covidien LP
+38,Edwards Lifesciences LLC,2,1.0000,2,0,2,Manufacturing,33911,"Irvine, CA",Irvine,Edwards Lifesciences LLC
+39,Epson America Inc,2,1.0000,2,0,2,Manufacturing,3341,"LOS ALAMITOS, CA",Los Alamitos,Epson America Inc | EPSON AMERICA INC.
+40,Faraday & Future Inc.,2,1.0000,2,0,2,Manufacturing,336110,"Gardena, CA",GARDENA,Faraday & Future Inc.
+41,Finfare Financial Inc.,2,1.0000,2,0,2,Information,518210,"Irvine, CA",Irvine,Finfare Financial Inc.
+42,Flawless AI Inc,2,1.0000,2,0,2,"Professional, scientific & technical services",541511,"Santa Monica, CA",Santa Monica,Flawless AI Inc
+43,"GEP Administrative Services, Inc.",2,1.0000,2,0,2,"Professional, scientific & technical services",541214,"Burbank, CA",Burbank,"GEP Administrative Services, Inc."
+44,"GoFundMe, Inc.",2,1.0000,2,0,2,"Professional, scientific & technical services",5419,"San Diego, CA",San Diego,"GoFundMe, Inc."
+45,Harbinger Motors Inc.,2,1.0000,2,0,2,"Professional, scientific & technical services",541420,"Garden Grove, CA",Garden Grove,Harbinger Motors Inc.
+46,"HG Insights, Inc.",2,1.0000,2,0,2,Information,518210,"Santa Barbara, CA",Santa Barbara,"HG Insights, Inc."
+47,"Interra Information Technologies, Inc.",2,1.0000,2,0,2,"Professional, scientific & technical services",541511,"San Jose, CA",Irvine,"Interra Information Technologies, Inc."
+48,"Knobbe, Martens, Olson & Bear, LLP",2,1.0000,2,0,2,"Professional, scientific & technical services",541110,"Irvine, CA",Irvine,"Knobbe, Martens, Olson & Bear, LLP"
+49,"Koh Young America, Inc",2,1.0000,2,0,2,"Professional, scientific & technical services",541519,"Duluth, CA",San Diego,"Koh Young America, Inc | Koh Young America, Inc."
+50,"LIFEPOINT REHABILITATION SERVICES, LLC",2,1.0000,2,0,2,Health care & social assistance,621340,"BRENTWOOD, TN",La Mirada | Ontario,"LIFEPOINT REHABILITATION SERVICES, LLC"
+51,"Marvell Semiconductor, Inc.",2,1.0000,2,0,2,Manufacturing,334413,"Santa Clara, CA",Irvine,"Marvell Semiconductor, Inc."
+52,"Meyers Manx, LLC",2,1.0000,2,0,2,Manufacturing,336110,"Costa Mesa, CA",Irvine,"Meyers Manx, LLC"
+53,MPG Operations LLC,2,1.0000,2,0,2,Finance & insurance,5239,"New York, NY",Santa Monica,MPG Operations LLC
+54,Mphasis Corporation,2,1.0000,2,0,2,"Professional, scientific & technical services",541511,"New York, NY",Woodland Hills,Mphasis Corporation
+55,"NeuIntel, LLC",2,1.0000,2,0,2,"Professional, scientific & technical services",541511,"Irvine, CA",Irvine,"NeuIntel, LLC"
+56,RSM US LLP,2,1.0000,2,0,2,"Professional, scientific & technical services",5412,"CHICAGO, IL",Irvine,RSM US LLP
+57,"Simplehuman, LLC",2,1.0000,2,0,2,Wholesale trade,42399,"TORRANCE, CA",TORRANCE | Torrance,"Simplehuman, LLC"
+58,"Skyworks Solutions, Inc.",2,1.0000,2,0,2,Manufacturing,33441,"Irvine, CA",Irvine | NEWBURY PARK,"Skyworks Solutions, Inc."
+59,Teradata U.S. Inc,2,1.0000,2,0,2,"Professional, scientific & technical services",541513,"Peachtree Corners, GA",San Diego,Teradata U.S. Inc
+60,U.S. Borax Inc.,2,1.0000,2,0,2,"Mining, quarrying & oil and gas",2131,"Boron, CA",Boron,U.S. Borax Inc.
+61,ABBVIE US LLC,1,1.0000,1,0,1,Manufacturing,3254,"NORTH CHICAGO, IL",IRVINE,ABBVIE US LLC
+62,AESC US LLC,1,1.0000,1,0,1,Manufacturing,33591,"Santa Clara, CA",Fallbrook,AESC US LLC
+63,Aescula Tech Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541715,"Los Angeles, CA",Los Angeles,Aescula Tech Inc.
+64,Albertson's LLC,1,1.0000,1,0,1,Retail trade,445110,"Boise, ID",Orcutt,Albertson's LLC
+65,American Specialty Health Incorporated,1,1.0000,1,0,1,Finance & insurance,52429,"Carmel, IN",Poway,American Specialty Health Incorporated
+66,"Aon Consulting, Inc.",1,1.0000,1,0,1,Finance & insurance,524210,"Chicago, IL",Irvine,"Aon Consulting, Inc."
+67,APPLE SENTITY INDEPENDENT PRODUCTIONS LLC,1,1.0000,1,0,1,Manufacturing,334111,"Santa Monica, CA",Santa Monica,APPLE SENTITY INDEPENDENT PRODUCTIONS LLC
+68,Applied Medical Distribution Corporation,1,1.0000,1,0,1,Manufacturing,339112,"RANCHO SANTA MARGARITA, CA",Rancho Santa Margarita,Applied Medical Distribution Corporation
+69,"Axar Laboratories, Inc.",1,1.0000,1,0,1,Manufacturing,3254,"Corona, CA",Corona,"Axar Laboratories, Inc."
+70,"BAIN & COMPANY, INC.",1,1.0000,1,0,1,"Professional, scientific & technical services",541611,"Boston, MA",LOS ANGELES,"BAIN & COMPANY, INC."
+71,BALLENTINE ARCHITECTS STUDIO INC,1,1.0000,1,0,1,"Professional, scientific & technical services",541310,"LOS ANGELES, CA",Los Angeles,BALLENTINE ARCHITECTS STUDIO INC
+72,"Becton, Dickinson and Company",1,1.0000,1,0,1,Manufacturing,339112,"Franklin Lakes, NJ",San Diego,"Becton, Dickinson and Company"
+73,"Berry Petroleum Company, LLC",1,1.0000,1,0,1,"Mining, quarrying & oil and gas",2111,"Dallas, TX",Bakersfield,"Berry Petroleum Company, LLC"
+74,Bionexus Consulting LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",54171,"San Diego, CA",San Diego,Bionexus Consulting LLC
+75,"Brightside Benefit, Inc.",1,1.0000,1,0,1,Finance & insurance,523930,"Chandler, AZ",Irvine,"Brightside Benefit, Inc."
+76,"Bureau Veritas North America, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",54138,"Houston, TX",Mojave,"Bureau Veritas North America, Inc."
+77,BYD Coach and Bus LLC,1,1.0000,1,0,1,Wholesale trade,423110,"Pasadena, CA",Lancaster,BYD Coach and Bus LLC
+78,"C&O Manufacturing, Inc.",1,1.0000,1,0,1,Manufacturing,337121,"Pico Rivera, CA",Pico Rivera,"C&O Manufacturing, Inc."
+79,Cadena Platforms LLC,1,1.0000,1,0,1,Information,513210,"El Segundo, CA",El Segundo,Cadena Platforms LLC
+80,California Department of Corrections and Rehabilitation,1,1.0000,1,0,1,Public administration,92214,"Elk Grove, CA",San Luis Obispo,California Department of Corrections and Rehabilitation
+81,"Cape Cod Healthcare, Inc.",1,1.0000,1,0,1,Health care & social assistance,622110,"Hyannis, MA",Santa Fe Springs,"Cape Cod Healthcare, Inc."
+82,Celesdata Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Irving, TX",Temecula,Celesdata Inc.
+83,"Cellics Therapeutics, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"San Diego, CA",San Diego,"Cellics Therapeutics, Inc."
+84,"Centiva Capital, LP",1,1.0000,1,0,1,Finance & insurance,523920,"New York, NY",El Segundo,"Centiva Capital, LP"
+85,Certain Satisfaction International Education LLC,1,1.0000,1,0,1,Educational services,611710,"San Diego, CA",San Diego,Certain Satisfaction International Education LLC
+86,Chagee CA LLC,1,1.0000,1,0,1,Accommodation & food services,722515,"Irvine, CA",Irvine,Chagee CA LLC
+87,Chen & Fan Accountancy Corporation,1,1.0000,1,0,1,"Professional, scientific & technical services",541211,"San Jose, CA",El Monte,Chen & Fan Accountancy Corporation
+88,Children's Hospital Los Angeles,1,1.0000,1,0,1,Health care & social assistance,622110,"Los Angeles, CA",Los Angeles,Children's Hospital Los Angeles
+89,Claremont McKenna College,1,1.0000,1,0,1,Educational services,611310,"Claremont, CA",Claremont,Claremont McKenna College
+90,"Clari, Inc.",1,1.0000,1,0,1,Information,518210,"Sunnyvale, CA",Newbury Park,"Clari, Inc."
+91,"CNM, LLP",1,1.0000,1,0,1,"Professional, scientific & technical services",54121,"Woodland Hills, CA",Woodland Hills,"CNM, LLP"
+92,"CompassX Group, Inc. d/b/a CompassX Consulting",1,1.0000,1,0,1,"Professional, scientific & technical services",541618,"Irvine, CA",Carlsbad,"CompassX Group, Inc. d/b/a CompassX Consulting"
+93,"Comprehensive Psychiatric Solutions, P.C.",1,1.0000,1,0,1,Health care & social assistance,621112,"Troy, MI",Ventura,"Comprehensive Psychiatric Solutions, P.C."
+94,Conjecture Consulting INC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"IRVINE, CA",San Diego,Conjecture Consulting INC
+95,Conrad N. Hilton Foundation,1,1.0000,1,0,1,Other services,813211,"Westlake Village, CA",Westlake Village,Conrad N. Hilton Foundation
+96,"Continental Autonomous Mobility US, LLC",1,1.0000,1,0,1,Manufacturing,3363,"Auburn Hills, MI",Carpinteria,"Continental Autonomous Mobility US, LLC"
+97,CORPORATE SOLUTIONS GENERAL INC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"HOUSTON, TX",Cypress,CORPORATE SOLUTIONS GENERAL INC
+98,Croda Inc.,1,1.0000,1,0,1,Wholesale trade,424690,"Plainsboro, NJ",Los Angeles,Croda Inc.
+99,"CrowdStrike, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541519,"Sunnyvale, CA",Irvine,"CrowdStrike, Inc."
+100,"CxOps, LLC",1,1.0000,1,0,1,Information,518210,"El Segundo, CA",Torrance,"CxOps, LLC"
+101,"Cypress Creek Renewables, LLC",1,1.0000,1,0,1,Utilities,221114,"Santa Monica, CA",Santa Monica,"Cypress Creek Renewables, LLC"
+102,Daybreak Game Company LLC,1,1.0000,1,0,1,Information,51121,"San Diego, CA",San Diego,Daybreak Game Company LLC
+103,Dazzlon Computer Services Inc,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"McKinney, TX",Newport Beach,Dazzlon Computer Services Inc
+104,"Deep Seas, LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",541519,"San Diego, CA",San Diego,"Deep Seas, LLC"
+105,"DISNEY PARKS TECHNOLOGY SERVICES CO., LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"BURBANK, CA",ANAHEIM,"DISNEY PARKS TECHNOLOGY SERVICES CO., LLC"
+106,"Dorado Design & Construction, Inc.",1,1.0000,1,0,1,Construction,236220,"Pasadena, CA",Pasadena,"Dorado Design & Construction, Inc."
+107,"Dropbox, Inc.",1,1.0000,1,0,1,Information,518210,"San Francisco, CA",Whittier,"Dropbox, Inc."
+108,"DYN365, INC.",1,1.0000,1,0,1,"Professional, scientific & technical services",541519,"IRVINE, CA",Rancho Santa Margarita,"DYN365, INC."
+109,Earnest LLC,1,1.0000,1,0,1,Finance & insurance,522291,"San Francsico, CA",Upland,Earnest LLC
+110,"Elevate Semiconductor, Inc.",1,1.0000,1,0,1,Manufacturing,334413,"San Diego, CA",San Diego,"Elevate Semiconductor, Inc."
+111,Elite Lighting,1,1.0000,1,0,1,Wholesale trade,423610,"Commerce, CA",Commerce,Elite Lighting
+112,Enevate Corporation,1,1.0000,1,0,1,"Professional, scientific & technical services",541715,"Irvine, CA",Irvine,Enevate Corporation
+113,EOS Accountants LLP,1,1.0000,1,0,1,"Professional, scientific & technical services",541211,"Teaneck, NJ",Torrance,EOS Accountants LLP
+114,"Evite, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541519,"Los Angeles, CA",Los Angeles,"Evite, Inc."
+115,"Family Health Centers of San Diego, Inc.",1,1.0000,1,0,1,Health care & social assistance,62149,"San Diego, CA",San Diego,"Family Health Centers of San Diego, Inc."
+116,"Fashion Nova, LLC",1,1.0000,1,0,1,Manufacturing,31599,"Vernon, CA",Vernon,"Fashion Nova, LLC"
+117,Fish & Richardson P.C.,1,1.0000,1,0,1,"Professional, scientific & technical services",54111,"Minneapolis, MN",San Diego,Fish & Richardson P.C.
+118,"Forge Technology, Inc",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Los Angeles, CA",Los Angeles,"Forge Technology, Inc"
+119,GlobalLogic Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Santa Clara, CA",Irvine,GlobalLogic Inc.
+120,Grant Thornton Advisors LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",541219,"Chicago, IL",Los Angeles,Grant Thornton Advisors LLC
+121,Green Hills Software LLC,1,1.0000,1,0,1,Information,511210,"Santa Barbara, CA",Santa Barbara,Green Hills Software LLC
+122,"Gridspace, Inc",1,1.0000,1,0,1,Wholesale trade,423430,"San Francisco, CO",Los Angeles,"Gridspace, Inc"
+123,"HARMAN CONNECTED SERVICES, INC.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"MOUNTAIN VIEW, CA",San Diego,"HARMAN CONNECTED SERVICES, INC."
+124,HCL AMERICA INC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Santa Clara, CA",Irvine,HCL AMERICA INC
+125,Hector Systems Inc,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Irving, TX",WoodlandHills,Hector Systems Inc
+126,HENSEL PHELPS CONSTRUCTION CO,1,1.0000,1,0,1,Construction,236220,"GREELEY, CO",Los Angeles,HENSEL PHELPS CONSTRUCTION CO
+127,"High Temperature Superconductors, Inc.",1,1.0000,1,0,1,Manufacturing,339999,"Santa Barbara, CA",Santa Barbara,"High Temperature Superconductors, Inc."
+128,"Hire IT People, Inc",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Piscataway, NJ",Eastvale,"Hire IT People, Inc"
+129,"HOT TOPIC, INC.",1,1.0000,1,0,1,Manufacturing,31599,"CITY OF INDUSTRY, CA",Riverside,"HOT TOPIC, INC."
+130,Hotta Liesenberg Saito LLP,1,1.0000,1,0,1,"Professional, scientific & technical services",541211,"Torrance, CA",Torrance,Hotta Liesenberg Saito LLP
+131,Huntington Medical Research Institutes,1,1.0000,1,0,1,"Professional, scientific & technical services",5417,"PASADENA, CA",PASADENA,Huntington Medical Research Institutes
+132,"Hyundai AutoEver America, LLC",1,1.0000,1,0,1,Information,5191,"Fountain Valley, CA",Costa Mesa,"Hyundai AutoEver America, LLC"
+133,IGT,1,1.0000,1,0,1,"Arts, entertainment & recreation",71329,"LAS VEGAS, NV",SAN DIEGO,IGT
+134,"Infinity Global, Inc.",1,1.0000,1,0,1,Wholesale trade,423990,"Danville, VA",Eastvale,"Infinity Global, Inc."
+135,Intervet Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",54171,"Rahway, NJ",San Diego,Intervet Inc.
+136,IQVIA Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541618,"Durham, NC",Los Angeles,IQVIA Inc.
+137,"iSharingSoft, Inc.",1,1.0000,1,0,1,Information,513210,"Irvine, CA",Irvine,"iSharingSoft, Inc."
+138,"James Hardie Building Products, Inc.",1,1.0000,1,0,1,Manufacturing,327420,"Chicago, IL",Claremont,"James Hardie Building Products, Inc."
+139,KBR Wyle Services LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",541330,"Houston, TX",San Diego,KBR Wyle Services LLC
+140,KELLERMEYER BERGENSONS SERVICES LLC,1,1.0000,1,0,1,Administrative & support services,561720,"Oceanside, CA",San Diego,KELLERMEYER BERGENSONS SERVICES LLC
+141,KIHUN SUNG D.D.S. INC.,1,1.0000,1,0,1,Health care & social assistance,62121,"Pomona, CA",Ontario,KIHUN SUNG D.D.S. INC.
+142,"Kinovate Life Sciences, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"Oceanside, CA",Oceanside,"Kinovate Life Sciences, Inc."
+143,Knight Management Insurance Services LLC,1,1.0000,1,0,1,Finance & insurance,52429,"Los Angeles, CA",Los Angeles,Knight Management Insurance Services LLC
+144,KPMG LLP,1,1.0000,1,0,1,"Professional, scientific & technical services",54121,"Dallas, TX",Los Angeles,KPMG LLP
+145,Laksan Technologies LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Metuchen, NJ",Fontana,Laksan Technologies LLC
+146,"LAUSD Student Health Support Services Fund, Inc.",1,1.0000,1,0,1,Educational services,611710,"Los Angeles, CA",Los Angeles,"LAUSD Student Health Support Services Fund, Inc."
+147,Ligentia USA Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541614,"Irvine, CA",Irvine,Ligentia USA Inc.
+148,LOBEL FINANCIAL CORPORATION,1,1.0000,1,0,1,Finance & insurance,522220,"Anaheim, CA",Anaheim,LOBEL FINANCIAL CORPORATION
+149,"M. Arthur Gensler Jr. & Associates, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541310,"San Francisco, CA",Los Angeles,"M. Arthur Gensler Jr. & Associates, Inc."
+150,"MACOM TECHNOLOGY SOLUTIONS,INC.",1,1.0000,1,0,1,Manufacturing,334290,"LOWELL, MA",NEWPORT BEACH,"MACOM TECHNOLOGY SOLUTIONS,INC."
+151,"Mathematica, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541720,"Princeton, NJ",Los Angeles,"Mathematica, Inc."
+152,"Medical Management International, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541940,"Vancouver, WA",Laguna Hills,"Medical Management International, Inc."
+153,"Medtronic, Inc.",1,1.0000,1,0,1,Manufacturing,334510,"Fridley, MN",North Ridge,"Medtronic, Inc."
+154,"Michael Baker International, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541330,"Pittsburgh, PA",Ontario,"Michael Baker International, Inc."
+155,Mile Rock Capital Management LLC,1,1.0000,1,0,1,Finance & insurance,523940,"Larkspur, CA",Los Angeles,Mile Rock Capital Management LLC
+156,Moelis & Company Group LP,1,1.0000,1,0,1,Finance & insurance,5239,"New York, NY",Los Angeles,Moelis & Company Group LP
+157,"Molex, LLC",1,1.0000,1,0,1,Manufacturing,334417,"Lisle, IL",Carlsbad,"Molex, LLC"
+158,Monster Energy US LLC,1,1.0000,1,0,1,Manufacturing,312111,"Corona, CA",Corona,Monster Energy US LLC
+159,Narrative Ads,1,1.0000,1,0,1,"Professional, scientific & technical services",541810,"Pasadena, CA",Pasadena,Narrative Ads
+160,Netstar (US) Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541519,"Los Angeles, CA",Los Angeles,Netstar (US) Inc.
+161,"Neurocrine Biosciences, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"San Diego, CA",San Diego,"Neurocrine Biosciences, Inc."
+162,Newport Fab LLC,1,1.0000,1,0,1,Manufacturing,334413,"Newport Beach, CA",Newport Beach,Newport Fab LLC
+163,"NEXT GEAR SOLUTIONS, LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Oxford, MS",Irvine,"NEXT GEAR SOLUTIONS, LLC"
+164,Northwestern University,1,1.0000,1,0,1,Educational services,611310,"Evanston, IL",San Diego,Northwestern University
+165,"Numann Technologies, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Rancho Cordova, CA",Irvine,"Numann Technologies, Inc."
+166,NVIDIA Corporation,1,1.0000,1,0,1,Manufacturing,334111,"Santa Clara, CA",Irvine,NVIDIA Corporation
+167,Odyssey Therapeutics Inc,1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"Boston, MA",San Diego,Odyssey Therapeutics Inc
+168,"OliX US, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",5417,"Lexington, MA",San Diego,"OliX US, Inc."
+169,"OneH2, Inc.",1,1.0000,1,0,1,Manufacturing,325120,"Longview, NC",Long Beach,"OneH2, Inc."
+170,"PANGAEA HOLDINGS, INC.",1,1.0000,1,0,1,Retail trade,455219,"Laguna Beach, CA",Monrovia,"PANGAEA HOLDINGS, INC."
+171,Persistent Systems Limited,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Santa Clara, CA",Carlsbad,Persistent Systems Limited
+172,Pictor Labs Inc,1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"Los Angeles, CA",Los Angeles,Pictor Labs Inc
+173,"Pleno, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"San Diego, CA",San Diego,"Pleno, Inc."
+174,Polygon Labs Services (Delaware) Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"West Hollywood, CA",Los Angeles,Polygon Labs Services (Delaware) Inc.
+175,Power Source Inc,1,1.0000,1,0,1,Wholesale trade,424940,"MARINA DEL REY, CA",MARINA DEL REY,Power Source Inc
+176,"Predactiv, Inc.",1,1.0000,1,0,1,Information,519190,"Palo Alto, CA",Santa Ana,"Predactiv, Inc."
+177,"Prime Healthcare La Palma, LLC",1,1.0000,1,0,1,Health care & social assistance,622110,"La Palma, CA",La Palma,"Prime Healthcare La Palma, LLC"
+178,"Prime Healthcare Services – Sherman Oaks, LLC",1,1.0000,1,0,1,Health care & social assistance,622110,"Sherman Oaks, CA",Sherman Oaks,"Prime Healthcare Services – Sherman Oaks, LLC"
+179,"Private National Mortgage Acceptance Company, LLC",1,1.0000,1,0,1,Finance & insurance,522292,"Moorpark, CA",Agoura Hills,"Private National Mortgage Acceptance Company, LLC"
+180,"R.G. Vanderweil Engineers, LLP",1,1.0000,1,0,1,"Professional, scientific & technical services",541330,"Boston, MA",Long Beach,"R.G. Vanderweil Engineers, LLP"
+181,"RDC-S111, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541310,"Long Beach, CA",Long Beach,"RDC-S111, Inc."
+182,"Red Hat, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541512,"Raleigh, NC",Pasadena,"Red Hat, Inc."
+183,Riosoft Technology Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Cumberland, VA",Paso Robles,Riosoft Technology Inc.
+184,RM Info Solutions LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Kendall Park, NJ",San Diego,RM Info Solutions LLC
+185,Sahawneh Dental Corporation,1,1.0000,1,0,1,Health care & social assistance,621210,"COSTA MESA, CA",Hesperia,Sahawneh Dental Corporation
+186,"SALIENT MOTION, INC.",1,1.0000,1,0,1,Manufacturing,33641,"TORRANCE, CA",TORRANCE,"SALIENT MOTION, INC."
+187,SambaNova Systems Inc.,1,1.0000,1,0,1,"Professional, scientific & technical services",54199,"Palo Alto, CA",Irvine,SambaNova Systems Inc.
+188,"Samsung Electronics America, Inc.",1,1.0000,1,0,1,Wholesale trade,425110,"Ridgefield Park, NJ",Irvine,"Samsung Electronics America, Inc."
+189,"Samsung Research America, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",54171,"Mountain View, CA",Irvine,"Samsung Research America, Inc."
+190,San Diego State University Research Foundation,1,1.0000,1,0,1,Other services,813211,"San Diego, CA",San Diego,San Diego State University Research Foundation
+191,"Sapient Bioanalytics, LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",541714,"San Diego, CA",San Diego,"Sapient Bioanalytics, LLC"
+192,"Schrodinger, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"New York, NY",San Diego,"Schrodinger, Inc."
+193,Scripps Health,1,1.0000,1,0,1,Health care & social assistance,62211,"San Diego, CA",San Diego,Scripps Health
+194,SILICON STAFF IT SERVICES INC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"PRINCETON, NJ",IRVINE,SILICON STAFF IT SERVICES INC
+195,"Simpson Strong-Tie Company, Inc.",1,1.0000,1,0,1,Manufacturing,332119,"Pleasanton, CA",Irvine,"Simpson Strong-Tie Company, Inc."
+196,"Skadden, Arps, Slate, Meagher & Flom LLP",1,1.0000,1,0,1,"Professional, scientific & technical services",541110,"New York, NY",Los Angeles,"Skadden, Arps, Slate, Meagher & Flom LLP"
+197,Soka University of America,1,1.0000,1,0,1,Educational services,611310,"Aliso Viejo, CA",Aliso Viejo,Soka University of America
+198,"Sonos, Inc.",1,1.0000,1,0,1,Manufacturing,334310,"Goleta, CA",Goleta,"Sonos, Inc."
+199,"Spotter, Inc.",1,1.0000,1,0,1,Finance & insurance,522291,"Culver City, CA",Culver City,"Spotter, Inc."
+200,"SRF Consulting Group, Inc",1,1.0000,1,0,1,"Professional, scientific & technical services",541330,"Wayzata, MN",Murrieta,"SRF Consulting Group, Inc"
+201,"Strategic Global Advisors, LLC",1,1.0000,1,0,1,Finance & insurance,52393,"Newport Beach, CA",Newport Beach,"Strategic Global Advisors, LLC"
+202,"STUBHUB, INC.",1,1.0000,1,0,1,Retail trade,45999,"New York, NY",Santa Monica,"STUBHUB, INC."
+203,"Suffolk Construction Company, Inc.",1,1.0000,1,0,1,Construction,23622,"Boston, MA",Los Angeles,"Suffolk Construction Company, Inc."
+204,"SWAPP.IO, INC",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,Tel Aviv,Los Angeles,"SWAPP.IO, INC"
+205,"Tek Labs, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Farmington Hills, MI",Tustin,"Tek Labs, Inc."
+206,"TENANT, INC.",1,1.0000,1,0,1,Information,511210,"NEWPORT BEACH, CA",NEWPORT BEACH,"TENANT, INC."
+207,"The Fountain Group, LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",5416,"Tampa, FL",Temecula,"The Fountain Group, LLC"
+208,"The Wonderful Company, LLC",1,1.0000,1,0,1,Manufacturing,31199,"Los Angeles, CA",Shafter,"The Wonderful Company, LLC"
+209,"THINKLUSIVE, INC.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"MONMOUTH JUNCTION, NJ",IRVINE,"THINKLUSIVE, INC."
+210,Thoughtstream Enterprises LLC,1,1.0000,1,0,1,Information,511210,"San Juan Capistrano, CA",San Juan Capistrano,Thoughtstream Enterprises LLC
+211,Topgolf Callaway Brands Corp.,1,1.0000,1,0,1,Manufacturing,339920,"Carlsbad, CA",CARLSBAD,Topgolf Callaway Brands Corp.
+212,Tubis Technology Inc.,1,1.0000,1,0,1,Manufacturing,334413,"San Diego, CA",San Diego,Tubis Technology Inc.
+213,UMG Recordings Inc.,1,1.0000,1,0,1,Information,51223,"New York, NY",Hollywood,UMG Recordings Inc.
+214,Universal Electronics Inc.,1,1.0000,1,0,1,Manufacturing,334512,"Scottsdale, AZ",SANTA ANA,Universal Electronics Inc.
+215,University Corporation for Atmospheric Research,1,1.0000,1,0,1,"Professional, scientific & technical services",541715,"Boulder, CO",Carlsbad,University Corporation for Atmospheric Research
+216,UNIVERSITY OF NORTH TEXAS,1,1.0000,1,0,1,Educational services,611310,"Denton, TX",Pasadena,UNIVERSITY OF NORTH TEXAS
+217,University of San Diego,1,1.0000,1,0,1,Educational services,611310,"San Diego, CA",San Diego,University of San Diego
+218,University of Wisconsin System,1,1.0000,1,0,1,Educational services,611310,"Madison, WI",San Diego,University of Wisconsin System
+219,Veradigm LLC,1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Raleigh, NC",Lake Elsinore,Veradigm LLC
+220,"VF Outdoor, LLC",1,1.0000,1,0,1,Manufacturing,31499,"Costa Mesa, CA",Costa Mesa,"VF Outdoor, LLC"
+221,"Vitu, Inc.",1,1.0000,1,0,1,Information,5182,"Agoura Hills, CA",Agoura Hills,"Vitu, Inc."
+222,"Vividion Therapeutics, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",54138,"San Diego, CA",San Diego,"Vividion Therapeutics, Inc."
+223,"VRGL, Inc.",1,1.0000,1,0,1,Finance & insurance,523940,"Dallas, TX",Pasadena,"VRGL, Inc."
+224,WALT DISNEY PICTURES,1,1.0000,1,0,1,Information,51211,"BURBANK, CA",BURBANK,WALT DISNEY PICTURES
+225,"WHOVA, INC.",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"SAN DIEGO, CA",San Diego,"WHOVA, INC."
+226,"WIN.IT America, Inc.",1,1.0000,1,0,1,"Professional, scientific & technical services",541614,"City of Industry, CA",City of Industry,"WIN.IT America, Inc."
+227,Wonderful Citrus Packing LLC,1,1.0000,1,0,1,"Agriculture, forestry, fishing & hunting",115116,"Delano, CA",Delano,Wonderful Citrus Packing LLC
+228,"World Wide Technology Holding Company, LLC",1,1.0000,1,0,1,"Professional, scientific & technical services",541511,"Maryland Heights, MO",Costa Mesa,"World Wide Technology Holding Company, LLC"
+229,"ZICO RISING, INC",1,1.0000,1,0,1,Wholesale trade,42449,"SEAL BEACH, CA",SEAL BEACH,"ZICO RISING, INC"
+230,"ZPMC North America, Inc.",1,1.0000,1,0,1,Other services,811310,"Irvine, CA",Irvine,"ZPMC North America, Inc."
